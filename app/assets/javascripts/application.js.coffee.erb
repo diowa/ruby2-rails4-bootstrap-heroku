@@ -1,0 +1,32 @@
+#= require jquery
+#= require jquery_ujs
+#= require jquery.turbolinks
+#= require turbolinks
+
+# FRONT END
+#= require twitter/bootstrap
+
+# JS TEMPLATES
+#= require handlebars.runtime
+
+# I18n
+#= require i18n
+#= require i18n/translations
+
+# ALL THE REST
+#= require_tree .
+
+'use strict'
+
+I18n.defaultLocale = '<%= I18n.default_locale %>'
+I18n.locale = $('html').attr 'lang'
+
+startSpinner = ->
+  $('#loading-spinner').show()
+
+stopSpinner = ->
+  $('#loading-spinner').fadeOut()
+
+# Turbolinks Spinner
+document.addEventListener 'page:fetch', startSpinner
+document.addEventListener 'page:receive', stopSpinner
