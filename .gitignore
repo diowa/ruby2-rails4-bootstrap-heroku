@@ -1,0 +1,69 @@
+# Linux.gitignore
+.*
+!.coveralls.yml
+!.gitignore
+!.rspec
+!.slugignore
+!.travis.yml
+*~
+
+
+
+# OSX.gitignore
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+
+# Rails.gitignore
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+.rvmrc
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+.project
+
+
+
+# Ignore Redis' dataset snapshot
+dump.rdb
+
+# Ignore chrome driver log
+chromedriver.log
+
+# Ignore rails_best_practices report
+rails_best_practices_output.html
+
+# Ignore brakeman report
+brakeman.html
+
+# Ignore file uploads
+/public/uploads
+
+# Ignore precompiled assets
+/public/assets
+
+# Ignore sensitive data
+/config/settings/local.rb
