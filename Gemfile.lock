@@ -137,11 +137,7 @@ GEM
     mime-types (1.22)
     minitest (4.7.2)
     mono_logger (1.0.1)
-    moped (1.4.5)
     multi_json (1.7.2)
-    newrelic_moped (0.0.6)
-      moped
-      newrelic_rpm (~> 3.6.0)
     newrelic_rpm (3.6.0.83)
     nokogiri (1.5.9)
     pg (0.15.1)
@@ -305,7 +301,6 @@ DEPENDENCIES
   launchy
   less-rails
   meta_request
-  newrelic_moped
   newrelic_rpm
   nokogiri
   pg
