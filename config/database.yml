@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: starterapp_development
   pool: 5
-  username: starterapp
+  username: postgres
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: starterapp_test
   pool: 5
-  username: starterapp
+  username: postgres
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: starterapp_production
   pool: 5
-  username: starterapp
+  username: postgres
   password:

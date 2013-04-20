@@ -19,7 +19,6 @@ gem 'pg'
 # Performance and Exception management
 gem 'airbrake'
 gem 'newrelic_rpm'
-gem 'newrelic_moped'
 
 # Security
 gem 'secure_headers'
