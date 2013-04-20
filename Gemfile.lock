@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/bmabey/database_cleaner.git
+  revision: 20136e8987c222013d96e07c27d1230d2bbebd61
+  specs:
+    database_cleaner (0.9.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -69,7 +75,6 @@ GEM
       thor
     crack (0.3.2)
     daemons (1.1.9)
-    database_cleaner (0.9.1)
     debug_inspector (0.0.2)
     debugger (1.5.0)
       columnize (>= 0.3.1)
@@ -284,7 +289,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.0.0.beta1)
   coveralls
-  database_cleaner
+  database_cleaner!
   debugger
   delorean
   email_spec
