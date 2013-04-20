@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.1.4
+-----
+* Added postgresql spec configuration
+* Using database_cleaner gem from master branch
+
 0.1.3
 -----
 * Added LICENSE file
