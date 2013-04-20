@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.1.3
+-----
+* Added LICENSE file
+* Added Travis CI
+* Added Coveralls
+* Added badges
+* Removed unneeded gem
+
 0.1.2
 -----
 * Trying to solve assets issue on heroku
