@@ -1,6 +1,13 @@
 Changelog
 =========
 
+0.1.5
+-----
+* Updated gems
+* Improved README
+* Improved spec_helper
+* Improved gemfile
+
 0.1.4
 -----
 * Added postgresql spec configuration
