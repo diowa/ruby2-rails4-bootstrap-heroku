@@ -11,20 +11,20 @@ gem 'unicorn'
 gem 'simpleconfig'
 
 # API
-gem 'rabl'
+# gem 'rabl'
 
 # ORM
 gem 'pg'
 
 # Performance and Exception management
-gem 'airbrake'
-gem 'newrelic_rpm'
+# gem 'airbrake'
+# gem 'newrelic_rpm'
 
 # Security
-gem 'secure_headers'
+# gem 'secure_headers'
 
 # Miscellanea
-gem 'google-analytics-rails'
+# gem 'google-analytics-rails'
 gem 'haml'
 gem 'http_accept_language'
 gem 'jquery-rails'

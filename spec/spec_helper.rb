@@ -43,7 +43,7 @@ RSpec.configure do |config|
   config.order = 'random'
 
   config.include Delorean
-  config.include MailerMacros
+
   ActionMailer::Base.perform_deliveries = false
   ActionMailer::Base.raise_delivery_errors = false
   ActionMailer::Base.delivery_method = :test
