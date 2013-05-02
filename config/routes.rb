@@ -1,5 +1,5 @@
 Starterapp::Application.routes.draw do
 
-  root to: 'pages#home'
+  root 'pages#home'
 
 end

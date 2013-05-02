@@ -21,8 +21,6 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 require 'webmock/rspec'
 require 'capybara/rspec'
 
-WebMock.disable_net_connect! allow: 'graph.facebook.com', allow_localhost: true
-
 #Capybara.ignore_hidden_elements = false # testing hidden fields
 
 RSpec.configure do |config|
@@ -41,16 +39,4 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = 'random'
-
-  config.include Delorean
-
-  ActionMailer::Base.perform_deliveries = false
-  ActionMailer::Base.raise_delivery_errors = false
-  ActionMailer::Base.delivery_method = :test
-
-  config.before(:each) do
-    back_to_the_present
-    reset_email
-    #load "#{Rails.root}/db/seeds.rb"
-  end
 end

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.2.0
+-----
+* Rails 4 rc1
+* Improved and fixed spec helper
+
 0.1.5
 -----
 * Updated gems

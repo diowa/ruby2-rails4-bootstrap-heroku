@@ -10,4 +10,8 @@ end
 
 RSpec.configure do |config|
   config.include MailerMacros
+
+  config.before(:each) do
+    reset_email
+  end
 end
