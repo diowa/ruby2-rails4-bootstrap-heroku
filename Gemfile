@@ -42,7 +42,7 @@ gem 'less-rails'
 gem 'sass-rails', '~> 4.0.0.rc1'
 gem 'therubyracer'
 gem 'turbolinks'
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', github: 'diowa/twitter-bootstrap-rails', branch: 'rails4-assets'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
