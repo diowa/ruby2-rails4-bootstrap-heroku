@@ -7,8 +7,8 @@ GIT
 
 GIT
   remote: git://github.com/diowa/twitter-bootstrap-rails.git
-  revision: 9f1a1cbfed8b2e79d75d0e5d58b4ce9588e389ae
-  branch: rails4-assets
+  revision: c0f5b77b917e7ff91978b49ff559671e4861888f
+  branch: fontawesome-3.1.1
   specs:
     twitter-bootstrap-rails (2.2.6)
       actionpack (>= 3.1)
@@ -141,7 +141,7 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    meta_request (0.2.4)
+    meta_request (0.2.5)
       callsite
       rack-contrib
       railties
@@ -153,11 +153,11 @@ GEM
     nokogiri (1.5.9)
     pg (0.15.1)
     polyglot (0.3.3)
-    pry (0.9.12.1)
+    pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
-    pry-rails (0.2.2)
+    pry-rails (0.3.0)
       pry (>= 0.9.10)
     rack (1.5.2)
     rack-contrib (1.1.0)
@@ -209,7 +209,7 @@ GEM
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
     rubyzip (0.9.9)
-    sass (3.2.8)
+    sass (3.2.9)
     sass-rails (4.0.0.rc1)
       railties (>= 4.0.0.beta, < 5.0)
       sass (>= 3.1.10)
@@ -249,14 +249,14 @@ GEM
     thor (0.18.1)
     thread_safe (0.1.0)
       atomic
-    tilt (1.4.0)
+    tilt (1.4.1)
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
     turbolinks (1.1.1)
       coffee-rails
     tzinfo (0.3.37)
-    uglifier (2.0.1)
+    uglifier (2.1.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
     unicorn (4.6.2)

@@ -3,6 +3,7 @@ Changelog
 
 0.3.0
 -----
+* Fontawesome 3.1.1
 
 0.2.0
 -----
