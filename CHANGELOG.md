@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.3.1
+-----
+* Updated gems
+
 0.3.0
 -----
 * Fontawesome 3.1.1
