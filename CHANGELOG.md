@@ -3,6 +3,7 @@ Changelog
 
 0.4.0
 -----
+* Rails 4 rc2
 
 0.3.0
 -----
