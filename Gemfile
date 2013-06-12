@@ -64,7 +64,7 @@ end
 group :test do
   gem 'capybara'
   gem 'coveralls', require: false
-  gem 'database_cleaner', github: 'bmabey/database_cleaner', ref: '20136e89'
+  gem 'database_cleaner'
   gem 'email_spec'
   gem 'launchy'
   gem 'rspec'
