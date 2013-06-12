@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.0.0'
-gem 'rails', '4.0.0.rc1'
+gem 'rails', '4.0.0.rc2'
 
 # Servers
 gem 'thin'
@@ -42,7 +42,7 @@ gem 'less-rails'
 gem 'sass-rails', '~> 4.0.0.rc1'
 gem 'therubyracer'
 gem 'turbolinks'
-gem 'twitter-bootstrap-rails', github: 'diowa/twitter-bootstrap-rails', branch: 'fontawesome-3.1.1'
+gem 'twitter-bootstrap-rails'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
