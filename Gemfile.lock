@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GIT
   remote: git://github.com/bmabey/database_cleaner.git
   revision: 20136e8987c222013d96e07c27d1230d2bbebd61
@@ -5,6 +6,8 @@ GIT
   specs:
     database_cleaner (0.9.1)
 
+=======
+>>>>>>> hotfix/0.4.1
 GEM
   remote: https://rubygems.org/
   specs:

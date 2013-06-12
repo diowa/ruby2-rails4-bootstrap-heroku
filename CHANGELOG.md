@@ -4,6 +4,10 @@ Changelog
 0.5.0
 -----
 
+0.4.1
+-----
+* Updated database_cleaner gem
+
 0.4.0
 -----
 * Rails 4 rc2
