@@ -4,7 +4,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.0.rc2'
 
 # Servers
-gem 'thin'
+gem 'puma'
 gem 'unicorn'
 
 # Multi-environment configuration
@@ -39,10 +39,10 @@ gem 'handlebars_assets'
 gem 'i18n-js'
 gem 'jquery-turbolinks'
 gem 'less-rails'
-gem 'sass-rails', '~> 4.0.0.rc1'
+gem 'sass-rails', '~> 4.0.0.rc2'
 gem 'therubyracer'
 gem 'turbolinks'
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', github: 'diowa/twitter-bootstrap-rails', branch: 'fontawesome-3.2.0'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
