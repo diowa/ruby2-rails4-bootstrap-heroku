@@ -1,8 +1,16 @@
 Changelog
 =========
 
+0.5.1
+-----
+* Fixed specs
+* Fixed changelog
+
 0.5.0
 -----
+* Puma server
+* Bootstrap 2.3.2
+* Fontawesome 3.2.0
 
 0.4.1
 -----
