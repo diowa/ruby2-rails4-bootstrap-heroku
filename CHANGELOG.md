@@ -1,6 +1,9 @@
 Changelog
 =========
 
+0.5.0
+-----
+
 0.4.1
 -----
 * Updated database_cleaner gem
