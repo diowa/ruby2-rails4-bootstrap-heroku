@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.6.0
+-----
+* Fontawesome 3.2.1
+
 0.5.1
 -----
 * Fixed specs
