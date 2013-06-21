@@ -73,3 +73,7 @@ group :test do
   gem 'simplecov', require: false
   gem 'webmock', require: false
 end
+
+group :staging, :production do
+  gem 'rails_12factor'
+end

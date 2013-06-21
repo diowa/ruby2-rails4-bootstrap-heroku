@@ -1,6 +1,10 @@
 Changelog
 =========
 
+0.6.1
+-----
+* Added rails_12factor gem
+
 0.6.0
 -----
 * Fontawesome 3.2.1
