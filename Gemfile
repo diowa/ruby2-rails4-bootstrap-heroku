@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
 ruby '2.0.0'
-gem 'rails', '4.0.0.rc2'
+gem 'rails', '4.0.0'
 
 # Servers
 gem 'puma'
 gem 'unicorn'
 
 # Multi-environment configuration
-gem 'simpleconfig'
+# gem 'simpleconfig'
 
 # API
 # gem 'rabl'
@@ -26,20 +26,19 @@ gem 'pg'
 # Miscellanea
 # gem 'google-analytics-rails'
 gem 'haml'
-gem 'http_accept_language'
+# gem 'http_accept_language'
 gem 'jquery-rails'
 gem 'nokogiri'
-gem 'resque', require: 'resque/server' # Resque web interface
-gem 'rest-client'
+# gem 'resque', require: 'resque/server' # Resque web interface
 
 # Assets
 gem 'coffee-rails', '~> 4.0.0'
 gem 'haml_assets'
-gem 'handlebars_assets'
+# gem 'handlebars_assets'
 gem 'i18n-js'
 gem 'jquery-turbolinks'
 gem 'less-rails'
-gem 'sass-rails', '~> 4.0.0.rc2'
+gem 'sass-rails', '~> 4.0.0'
 gem 'therubyracer'
 gem 'turbolinks'
 gem 'twitter-bootstrap-rails', github: 'diowa/twitter-bootstrap-rails', branch: 'fontawesome-3.2.1'
