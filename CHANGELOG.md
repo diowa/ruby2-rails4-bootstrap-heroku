@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.0
+-----
+* Rails 4
+
 0.6.1
 -----
 * Added rails_12factor gem
