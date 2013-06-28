@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.1
+-----
+* Updated gems
+* Tested against ruby-2.0.0-p247
+
 1.0.0
 -----
 * Rails 4
