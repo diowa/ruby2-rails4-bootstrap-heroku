@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0.2
+-----
+* Updated gems
+* Updated README
+
 1.0.1
 -----
 * Updated gems
