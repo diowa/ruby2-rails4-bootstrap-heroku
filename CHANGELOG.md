@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.4
+-----
+* Updated gems
+
 1.0.3
 -----
 * Fixed Heroku link in README
