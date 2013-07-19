@@ -74,7 +74,7 @@ GEM
       rest-client
       simplecov (>= 0.7)
       thor
-    crack (0.4.0)
+    crack (0.4.1)
       safe_yaml (~> 0.9.0)
     database_cleaner (1.0.1)
     debug_inspector (0.0.2)

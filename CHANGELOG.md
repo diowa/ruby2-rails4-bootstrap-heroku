@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.1.0
+-----
+* Support for Nitrous.IO
+
 1.0.6
 -----
 * Updated gems
