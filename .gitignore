@@ -30,7 +30,6 @@ Icon
 *.sassc
 .sass-cache
 capybara-*.html
-.rspec
 .rvmrc
 /.bundle
 /vendor/bundle
