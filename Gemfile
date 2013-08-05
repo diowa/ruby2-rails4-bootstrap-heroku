@@ -28,7 +28,6 @@ gem 'pg'
 gem 'haml'
 # gem 'http_accept_language'
 gem 'jquery-rails'
-gem 'nokogiri'
 # gem 'resque', require: 'resque/server' # Resque web interface
 
 # Assets
