@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.2.1
+-----
+* Updated gems
+
 1.2.0
 -----
 * Removed nokogiri
