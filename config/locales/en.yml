@@ -20,4 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  loading: "Loading..."
   hello: "Hello world"
+  shared:
+    navbar:
+      toggle_navigation: Toggle Navigation
