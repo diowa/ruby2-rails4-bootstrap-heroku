@@ -7,8 +7,8 @@ This is a starter web application based on the following technology stack:
 * [Rails 4.0.1][2]
 * [PostgreSQL][3]
 * [RSpec][4]
-* [Twitter Bootstrap 3.0.0][5]
-* [Font Awesome 3.2.1][6]
+* [Twitter Bootstrap 3.0.1][5]
+* [Font Awesome 4.0.1][6]
 * [HAML][7]
 
 [1]: http://www.ruby-lang.org/en/

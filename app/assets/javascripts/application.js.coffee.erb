@@ -14,16 +14,14 @@
 #= require jquery_ujs
 #= require jquery.turbolinks
 #= require turbolinks
-
-# FRONT END
 #= require twbs/bootstrap
 
 # I18n
 #= require i18n
 #= require i18n/translations
 
+I18n.defaultLocale = '<%= I18n.default_locale %>'
+I18n.locale = document.getElementsByTagName('html')[0].getAttribute('lang')
+
 # ALL THE REST
 #= require_tree .
-
-I18n.defaultLocale = '<%= I18n.default_locale %>'
-I18n.locale = $('html').attr 'lang'

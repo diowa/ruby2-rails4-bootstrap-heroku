@@ -8,20 +8,15 @@
     = csrf_meta_tags
     = yield :head
 
-    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Ubuntu:400,500,700',
-                          'application',
-                          media: 'all'
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
 
-    / Touch icons
-    %link{ href: asset_path('apple-touch-icon.png'), rel: 'apple-touch-icon' }
-    %link{ href: asset_path('apple-touch-icon-72x72.png'), rel: 'apple-touch-icon', sizes: '72x72' }
-    %link{ href: asset_path('apple-touch-icon-114x114.png'), rel: 'apple-touch-icon', sizes: '114x114' }
-    %link{ href: asset_path('apple-touch-icon-144x144.png'), rel: 'apple-touch-icon', sizes: '144x144' }
+    / Touch icon (uncomment if needed)
+    / %link{ href: asset_path('apple-touch-icon-144x144.png'), rel: 'apple-touch-icon', sizes: '144x144' }
 
     / Placed at the top of the document 'cause of turbolinks
-    = javascript_include_tag 'application'
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
 
-    /[if lt IE 9]
+    /[if lte IE 8]
       = javascript_include_tag 'http://html5shim.googlecode.com/svn/trunk/html5.js', asset_path('respond.js')
 
   %body
@@ -30,5 +25,5 @@
     #main-container.container= yield
 
     = render 'shared/footer'
-    #loading
-      %span.loading-label= t('loading')
+    #turbolinks-spinner.turbolinks-spinner
+      %span.turbolinks-spinner-label= t('loading')

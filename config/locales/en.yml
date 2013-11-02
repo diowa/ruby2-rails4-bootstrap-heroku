@@ -21,7 +21,6 @@
 
 en:
   loading: "Loading..."
-  hello: "Hello world"
   shared:
     navbar:
       toggle_navigation: Toggle Navigation
