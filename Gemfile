@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.0.0'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.1'
 
 # Servers
 gem 'puma'
@@ -33,14 +33,13 @@ gem 'jquery-rails'
 # Assets
 gem 'coffee-rails', '~> 4.0.0'
 gem 'haml_assets'
-# gem 'handlebars_assets'
 gem 'i18n-js'
 gem 'jquery-turbolinks'
 gem 'less-rails'
 gem 'sass-rails', '~> 4.0.0'
 gem 'therubyracer'
 gem 'turbolinks'
-gem 'twitter-bootstrap-rails', github: 'diowa/twitter-bootstrap-rails', branch: 'fontawesome-3.2.1'
+gem 'twbs_less_rails'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do

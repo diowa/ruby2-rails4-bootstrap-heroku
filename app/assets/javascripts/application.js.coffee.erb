@@ -1,32 +1,27 @@
+# This is a manifest file that'll be compiled into application.js, which will include all the files
+# listed below.
+#
+# Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
+# or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
+#
+# It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+# compiled file.
+#
+# Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
+# about supported directives.
+#
 #= require jquery
 #= require jquery_ujs
 #= require jquery.turbolinks
 #= require turbolinks
-
-# FRONT END
-#= require twitter/bootstrap
-
-# JS HANDLEBARS TEMPLATES
-# require handlebars.runtime
+#= require twbs/bootstrap
 
 # I18n
 #= require i18n
 #= require i18n/translations
 
+I18n.defaultLocale = '<%= I18n.default_locale %>'
+I18n.locale = document.getElementsByTagName('html')[0].getAttribute('lang')
+
 # ALL THE REST
 #= require_tree .
-
-'use strict'
-
-I18n.defaultLocale = '<%= I18n.default_locale %>'
-I18n.locale = $('html').attr 'lang'
-
-startSpinner = ->
-  $('#loading-spinner').show()
-
-stopSpinner = ->
-  $('#loading-spinner').fadeOut()
-
-# Turbolinks Spinner
-document.addEventListener 'page:fetch', startSpinner
-document.addEventListener 'page:receive', stopSpinner

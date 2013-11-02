@@ -1,6 +1,15 @@
 Changelog
 =========
 
+2.0.0
+-----
+* Rails 4.0.1
+* Bootstrap 3.0.1
+* FontAwesome 4.0.1
+* Improved application layout
+* Improved turbolinks spinner
+* Removed unnecessary jQuery
+
 1.2.2
 -----
 * Updated gems
