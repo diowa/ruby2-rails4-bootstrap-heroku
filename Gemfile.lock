@@ -222,7 +222,7 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (1.3.0)
       coffee-rails
-    twbs_less_rails (2.2.0)
+    twbs_less_rails (2.3.0)
       less-rails
       rails (>= 3.2.15)
       therubyracer
