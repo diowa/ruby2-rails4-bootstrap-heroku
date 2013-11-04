@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.1.1
+-----
+* Fixed README
+
 2.1.0
 -----
 * FontAwesome 4.0.2
