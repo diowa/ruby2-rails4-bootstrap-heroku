@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.1.0
+-----
+* FontAwesome 4.0.2
+* Updated gems
+
 2.0.1
 -----
 * Updated gems
