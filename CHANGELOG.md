@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.3.0
+-----
+* Bootstrap 3.0.2
+* Updated gems
+
 2.2.0
 -----
 * FontAwesome 4.0.3
