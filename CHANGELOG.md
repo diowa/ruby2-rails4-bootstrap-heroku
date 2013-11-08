@@ -1,6 +1,10 @@
 Changelog
 =========
 
+2.3.1
+-----
+* Fixed update of gems
+
 2.3.0
 -----
 * Bootstrap 3.0.2
