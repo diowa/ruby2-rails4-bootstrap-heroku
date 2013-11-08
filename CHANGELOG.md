@@ -3,6 +3,10 @@ Changelog
 
 2.3.1
 -----
+* Fixed README
+
+2.3.1
+-----
 * Fixed update of gems
 
 2.3.0
