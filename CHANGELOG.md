@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.3.4
+-----
+* Updated gems
+* Added bullet initializer
+
 2.3.3
 -----
 * Updated gems
