@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.3.6
+-----
+* Deploy with ruby 2.0.0-p353
+* Updated gems
+
 2.3.5
 -----
 * Updated gems
