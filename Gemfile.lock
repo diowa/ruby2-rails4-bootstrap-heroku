@@ -76,7 +76,7 @@ GEM
     delorean (2.1.0)
       chronic
     diff-lcs (1.2.5)
-    docile (1.1.0)
+    docile (1.1.1)
     email_spec (1.5.0)
       launchy (~> 2.1)
       mail (~> 2.2)
@@ -107,7 +107,7 @@ GEM
       turbolinks
     json (1.8.1)
     kgio (2.8.1)
-    launchy (2.4.0)
+    launchy (2.4.2)
       addressable (~> 2.3)
     less (2.4.0)
       commonjs (~> 0.2.7)
@@ -123,7 +123,7 @@ GEM
       rack-contrib
       railties
     method_source (0.8.2)
-    mime-types (1.25)
+    mime-types (1.25.1)
     mini_portile (0.5.2)
     minitest (4.7.5)
     multi_json (1.8.2)
@@ -131,7 +131,7 @@ GEM
       mini_portile (~> 0.5.0)
     pg (0.17.0)
     polyglot (0.3.3)
-    pry (0.9.12.3)
+    pry (0.9.12.4)
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
