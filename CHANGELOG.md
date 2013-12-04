@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.3.8
+-----
+* Rails 3.2.16
+* Updated gems
+
 2.3.7
 -----
 * Updated gems
