@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.3.9
+-----
+* Updated gems
+* Fixed homepage
+* Fixed readme
+
 2.3.8
 -----
 * Rails 3.2.16
