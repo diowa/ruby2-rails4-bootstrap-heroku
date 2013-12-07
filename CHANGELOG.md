@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.4.0
+-----
+* Bootstrap v3.0.3
+* Respond.js 1.4.1
+* Updated gems
+
 2.3.9
 -----
 * Updated gems
