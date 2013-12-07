@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.4.1
+-----
+* Fixed homepage
+* Using Radiant Orchid (PANTONE 2014 Color of the Year) as primary color
+
 2.4.0
 -----
 * Bootstrap v3.0.3
