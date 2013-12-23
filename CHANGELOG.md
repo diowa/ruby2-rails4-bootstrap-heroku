@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.4.2
+-----
+* Updated gems
+* Fixed changelog
+
 2.4.1
 -----
 * Fixed homepage
@@ -20,7 +25,7 @@ Changelog
 
 2.3.8
 -----
-* Rails 3.2.16
+* Rails 4.0.2
 * Updated gems
 
 2.3.7
