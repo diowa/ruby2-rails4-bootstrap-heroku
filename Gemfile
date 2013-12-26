@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.0'
 gem 'rails', '4.0.2'
 
 # Servers
@@ -43,11 +43,12 @@ gem 'twbs_less_rails'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
-  gem 'debugger'
+  gem 'byebug'
   gem 'delorean'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry'
+  gem 'pry-byebug'
   gem 'pry-rails'
 end
 

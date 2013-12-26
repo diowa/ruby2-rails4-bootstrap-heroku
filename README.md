@@ -3,7 +3,7 @@ Starter App [![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-
 
 This is a starter web application based on the following technology stack:
 
-* [Ruby 2][1]
+* [Ruby 2.1][1]
 * [Rails 4.0.2][2]
 * [PostgreSQL][3]
 * [RSpec][4]
