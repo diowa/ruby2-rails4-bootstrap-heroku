@@ -37,6 +37,9 @@ GEM
     bullet (4.7.1)
       activesupport
       uniform_notifier (>= 1.4.0)
+    byebug (2.5.0)
+      columnize (~> 0.3.6)
+      debugger-linecache (~> 1.2.0)
     callsite (0.0.11)
     capybara (2.2.0)
       mime-types (>= 1.16)
@@ -67,12 +70,7 @@ GEM
       safe_yaml (~> 0.9.0)
     database_cleaner (1.2.0)
     debug_inspector (0.0.2)
-    debugger (1.6.3)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.2.4)
     debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.2.4)
     delorean (2.1.0)
       chronic
     diff-lcs (1.2.5)
@@ -135,6 +133,9 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    pry-byebug (1.2.0)
+      byebug (~> 2.2)
+      pry (~> 0.9.12)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
     puma (2.7.1)
@@ -155,7 +156,7 @@ GEM
     rails_12factor (0.0.2)
       rails_serve_static_assets
       rails_stdout_logging
-    rails_serve_static_assets (0.0.1)
+    rails_serve_static_assets (0.0.2)
     rails_stdout_logging (0.0.3)
     railties (4.0.2)
       actionpack (= 4.0.2)
@@ -251,11 +252,11 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bullet
+  byebug
   capybara
   coffee-rails (~> 4.0.0)
   coveralls
   database_cleaner
-  debugger
   delorean
   email_spec
   factory_girl_rails
@@ -270,6 +271,7 @@ DEPENDENCIES
   meta_request
   pg
   pry
+  pry-byebug
   pry-rails
   puma
   rails (= 4.0.2)
