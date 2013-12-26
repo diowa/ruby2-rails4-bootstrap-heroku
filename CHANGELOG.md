@@ -1,6 +1,13 @@
 Changelog
 =========
 
+3.0.0
+-----
+* Ruby 2.1.0
+* Using byebug instead of debugger
+* Enforced available locales to silence deprecation message
+* Updated gems
+
 2.4.2
 -----
 * Updated gems
