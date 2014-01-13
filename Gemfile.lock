@@ -74,7 +74,7 @@ GEM
     delorean (2.1.0)
       chronic
     diff-lcs (1.2.5)
-    docile (1.1.1)
+    docile (1.1.2)
     email_spec (1.5.0)
       launchy (~> 2.1)
       mail (~> 2.2)
@@ -124,7 +124,7 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.5.2)
     minitest (4.7.5)
-    multi_json (1.8.2)
+    multi_json (1.8.4)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     pg (0.17.1)
@@ -224,9 +224,9 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.1.0)
+    turbolinks (2.2.0)
       coffee-rails
-    twbs_less_rails (2.7.0)
+    twbs_less_rails (2.7.1)
       less-rails
       rails (>= 3.2.16)
       therubyracer
@@ -234,7 +234,7 @@ GEM
     uglifier (2.4.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    unicorn (4.7.0)
+    unicorn (4.8.0)
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
