@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.0
+
+* Moved to Sass
+
 ## 3.1.1
 
 * Updated gems

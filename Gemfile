@@ -35,11 +35,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'haml_assets'
 gem 'i18n-js'
 gem 'jquery-turbolinks'
-gem 'less-rails'
 gem 'sass-rails', '~> 4.0.0'
-gem 'therubyracer'
 gem 'turbolinks'
-gem 'twbs_less_rails'
+gem 'twbs_sass_rails'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
