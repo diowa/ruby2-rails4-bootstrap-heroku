@@ -59,7 +59,6 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     columnize (0.3.6)
-    commonjs (0.2.7)
     coveralls (0.7.0)
       multi_json (~> 1.3)
       rest-client
@@ -107,12 +106,6 @@ GEM
     kgio (2.8.1)
     launchy (2.4.2)
       addressable (~> 2.3)
-    less (2.4.0)
-      commonjs (~> 0.2.7)
-    less-rails (2.4.2)
-      actionpack (>= 3.1)
-      less (~> 2.4.0)
-    libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -165,7 +158,6 @@ GEM
       thor (>= 0.18.1, < 2.0)
     raindrops (0.12.0)
     rake (10.1.1)
-    ref (1.0.5)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rspec (2.14.1)
@@ -213,9 +205,6 @@ GEM
       sprockets (~> 2.8)
     term-ansicolor (1.2.2)
       tins (~> 0.8)
-    therubyracer (0.12.0)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.18.1)
     thread_safe (0.1.3)
       atomic
@@ -224,12 +213,11 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.2.0)
+    turbolinks (2.2.1)
       coffee-rails
-    twbs_less_rails (2.8.1)
-      less-rails
+    twbs_sass_rails (0.3.1)
       rails (>= 3.2.16)
-      therubyracer
+      sass-rails (>= 3.2)
     tzinfo (0.3.38)
     uglifier (2.4.0)
       execjs (>= 0.3.0)
@@ -268,7 +256,6 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   launchy
-  less-rails
   meta_request
   pg
   pry
@@ -282,9 +269,8 @@ DEPENDENCIES
   sass-rails (~> 4.0.0)
   selenium-webdriver
   simplecov
-  therubyracer
   turbolinks
-  twbs_less_rails
+  twbs_sass_rails
   uglifier (>= 1.3.0)
   unicorn
   webmock
