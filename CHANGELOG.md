@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.1
+
+* Updated gems
+
 ## 3.1.0
 
 * Bootstrap 3.1.0
