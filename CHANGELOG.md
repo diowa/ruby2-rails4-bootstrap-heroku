@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.1
+
+* Fixed homepage
+
 ## 4.0.0
 
 * Moved to Sass
