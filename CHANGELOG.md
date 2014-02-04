@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.2
+
+* Updated gems
+* update ruby for CVE-2013-6393
+
 ## 4.0.1
 
 * Fixed homepage
