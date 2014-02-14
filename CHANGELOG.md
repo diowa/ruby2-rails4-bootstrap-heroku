@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.4
+
+* Updated gems
+* Bootstrap for Sass 3.1.1
+
 ## 4.0.3
 
 * Updated gems
