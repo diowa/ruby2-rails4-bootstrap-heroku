@@ -1,9 +1,14 @@
 # Changelog
 
+## 4.0.5
+
+* Rails 4.0.3
+* Updated gems
+
 ## 4.0.4
 
-* Updated gems
 * Bootstrap for Sass 3.1.1
+* Updated gems
 
 ## 4.0.3
 
