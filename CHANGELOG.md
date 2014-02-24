@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.6
+
+* Updated gems
+
 ## 4.0.5
 
 * Rails 4.0.3
