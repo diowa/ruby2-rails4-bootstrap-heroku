@@ -1,8 +1,13 @@
 # Changelog
 
+## 4.0.8
+
+* Fixed travis.yml
+
 ## 4.0.7
 
 * Ruby 2.1.1
+* Updated gems
 
 ## 4.0.6
 
