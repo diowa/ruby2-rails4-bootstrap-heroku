@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.9
+
+* Rails 4.0.4
+* Updated gems
+
 ## 4.0.8
 
 * Fixed travis.yml
