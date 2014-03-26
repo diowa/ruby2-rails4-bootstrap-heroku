@@ -13,3 +13,8 @@
 /* Glyphs */
 //@import "twbs/bootstrap/glyphicons";
 @import "fontawesome/font-awesome";
+
+/* Standard Rails form errors */
+.field_with_errors {
+  @extend .has-error;
+}
