@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.0.0
+
+* [Configuration for puma](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
+* Updated gems
+
 ## 4.0.10
 
 * Updated gems

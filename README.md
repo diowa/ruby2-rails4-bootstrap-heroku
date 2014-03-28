@@ -23,6 +23,14 @@ Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby
 
 ```Gemfile``` also contains a set of useful gems for performance, security, api building...
 
+### Thread safety
+
+We assume that this application is thread safe. If your application is not thread safe or you don't know, please set the minimum and maximum number of threads usable by heroku to 1:
+
+```sh
+$ heroku config:set MIN_THREADS=1 MAX_THREADS=1
+```
+
 ### Nitrous.IO
 
 Starter App supports online development on [Nitrous.IO](http://www.nitrous.io).

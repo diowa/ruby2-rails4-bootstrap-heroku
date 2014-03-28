@@ -5,7 +5,6 @@ gem 'rails', '4.0.4'
 
 # Servers
 gem 'puma'
-gem 'unicorn'
 
 # Multi-environment configuration
 # gem 'simpleconfig'
@@ -71,5 +70,7 @@ group :test do
 end
 
 group :staging, :production do
+  gem 'puma_auto_tune'
+  gem 'rack-timeout'
   gem 'rails_12factor'
 end
