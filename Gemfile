@@ -5,10 +5,9 @@ gem 'rails', '4.0.4'
 
 # Servers
 gem 'puma'
-gem 'unicorn'
 
 # Multi-environment configuration
-# gem 'simpleconfig'
+# gem 'figaro'
 
 # API
 # gem 'rabl'
@@ -16,9 +15,9 @@ gem 'unicorn'
 # ORM
 gem 'pg'
 
-# Performance and Exception management
+# App monitoring
 # gem 'airbrake'
-# gem 'newrelic_rpm'
+gem 'newrelic_rpm'
 
 # Security
 # gem 'secure_headers'
@@ -31,6 +30,7 @@ gem 'jquery-rails'
 # gem 'resque', require: 'resque/server' # Resque web interface
 
 # Assets
+gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'haml_assets'
 gem 'i18n-js'
@@ -55,6 +55,8 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
+  gem 'spring'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
@@ -71,5 +73,7 @@ group :test do
 end
 
 group :staging, :production do
+  gem 'puma_auto_tune'
+  gem 'rack-timeout'
   gem 'rails_12factor'
 end

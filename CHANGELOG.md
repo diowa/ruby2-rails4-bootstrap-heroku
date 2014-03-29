@@ -1,5 +1,18 @@
 # Changelog
 
+## 5.0.0
+
+* [Configuration for Puma](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
+* Puma Auto Tune
+* Spring
+* Autoprefixer
+* Added recommended add-ons to readme
+* Added configuration for New Relic
+* Fixed database cleaner configuration
+* Fixed navbar code
+* Fixed application.js
+* Updated gems
+
 ## 4.0.10
 
 * Updated gems
