@@ -30,6 +30,7 @@ gem 'jquery-rails'
 # gem 'resque', require: 'resque/server' # Resque web interface
 
 # Assets
+gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'haml_assets'
 gem 'i18n-js'
@@ -54,6 +55,8 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
+  gem 'spring'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
