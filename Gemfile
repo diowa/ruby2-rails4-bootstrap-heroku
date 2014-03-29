@@ -15,6 +15,9 @@ gem 'puma'
 # ORM
 gem 'pg'
 
+# Pagination
+# gem 'kaminari'
+
 # App monitoring
 # gem 'airbrake'
 gem 'newrelic_rpm'
@@ -35,7 +38,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'haml_assets'
 gem 'i18n-js'
 gem 'jquery-turbolinks'
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.2'
 gem 'turbolinks'
 gem 'twbs_sass_rails'
 gem 'uglifier', '>= 1.3.0'
@@ -51,9 +54,9 @@ group :development, :test do
 end
 
 group :development do
-  gem 'bullet'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'bullet'
   gem 'meta_request'
   gem 'spring'
   gem 'spring-commands-rspec'
@@ -64,7 +67,6 @@ group :test do
   gem 'coveralls', require: false
   gem 'database_cleaner'
   gem 'email_spec'
-  gem 'launchy'
   gem 'rspec'
   gem 'rspec-rails'
   gem 'selenium-webdriver'

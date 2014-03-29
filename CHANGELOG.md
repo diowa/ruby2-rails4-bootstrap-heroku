@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.1
+
+* Fixed license
+
 ## 5.0.0
 
 * [Configuration for Puma](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
