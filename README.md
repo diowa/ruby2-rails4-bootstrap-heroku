@@ -9,8 +9,9 @@ This is a starter web application based on the following technology stack:
 * [PostgreSQL][4]
 * [RSpec][5]
 * [Twitter Bootstrap for Sass 3.1.1][6]
-* [Font Awesome 4.0.3][7]
-* [HAML][8]
+* [Autoprefixer][7]
+* [Font Awesome 4.0.3][8]
+* [HAML][9]
 
 [1]: http://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
@@ -18,8 +19,9 @@ This is a starter web application based on the following technology stack:
 [4]: http://www.postgresql.org/
 [5]: http://rspec.info/
 [6]: http://getbootstrap.com/
-[7]: http://fontawesome.io/
-[8]: http://haml.info/
+[7]: http://github.com/ai/autoprefixer/
+[8]: http://fontawesome.io/
+[9]: http://haml.info/
 
 Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 

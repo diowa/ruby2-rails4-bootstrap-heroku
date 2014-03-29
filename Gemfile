@@ -7,7 +7,7 @@ gem 'rails', '4.0.4'
 gem 'puma'
 
 # Multi-environment configuration
-# gem 'simpleconfig'
+# gem 'figaro'
 
 # API
 # gem 'rabl'
