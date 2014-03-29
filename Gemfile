@@ -15,9 +15,9 @@ gem 'puma'
 # ORM
 gem 'pg'
 
-# Performance and Exception management
+# App monitoring
 # gem 'airbrake'
-# gem 'newrelic_rpm'
+gem 'newrelic_rpm'
 
 # Security
 # gem 'secure_headers'

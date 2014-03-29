@@ -31,6 +31,16 @@ We assume that this application is thread safe. If your application is not threa
 $ heroku config:set MIN_THREADS=1 MAX_THREADS=1
 ```
 
+### Recommended add-ons
+
+Heroku's [Production Check](https://blog.heroku.com/archives/2013/4/26/introducing_production_check) recommends the use of the following add-ons, here in the free version:
+
+```sh
+$ heroku addons:add pgbackups:auto-month # Postgres backups
+$ heroku addons:add newrelic:stark # App monitoring
+$ heroku addons:add papertrail # Log monitoring
+```
+
 ### Nitrous.IO
 
 Starter App supports online development on [Nitrous.IO](http://www.nitrous.io).

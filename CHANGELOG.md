@@ -2,7 +2,10 @@
 
 ## 5.0.0
 
-* [Configuration for puma](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
+* [Configuration for Puma](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
+* Puma Auto Tune
+* Added recommended add-ons to readme
+* Added New Relic configuration
 * Updated gems
 
 ## 4.0.10
