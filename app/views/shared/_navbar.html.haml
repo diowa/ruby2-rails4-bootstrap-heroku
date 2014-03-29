@@ -1,4 +1,4 @@
-.navbar.navbar-default{ role: 'navigation' }
+%nav.navbar.navbar-default{ role: 'navigation' }
   .container
     .navbar-header
       %button.navbar-toggle{ type: 'button', data: { toggle: 'collapse', target: '.navbar-collapse' } }
@@ -7,6 +7,5 @@
         %span.icon-bar
         %span.icon-bar
       = link_to Rails.application.class.parent_name, root_path, class: 'navbar-brand'
-
     .collapse.navbar-collapse
       %ul.nav.navbar-nav

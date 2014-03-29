@@ -3,10 +3,8 @@ if ENV['CI']
   Coveralls.wear! 'rails'
 end
 
-unless ENV['DRB']
-  require 'simplecov'
-  SimpleCov.start 'rails'
-end
+require 'simplecov'
+SimpleCov.start 'rails'
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV['RAILS_ENV'] ||= 'test'
