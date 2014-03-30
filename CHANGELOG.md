@@ -2,7 +2,8 @@
 
 ## 5.0.1
 
-* Fixed license
+* Fixed License
+* Improved Gemfile
 
 ## 5.0.0
 
