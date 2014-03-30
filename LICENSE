@@ -1,4 +1,4 @@
-Copyright (c) 2013, diowa
+Copyright (c) 2014, diowa
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -24,27 +24,55 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 airbrake is licensed by Airbrake
 
-Bootstrap is licensed under the MIT License
+Autoprefixer Rails is licensed under the MIT License
 
-FontAwesome is licensed under the MIT License
+better_errors is licensed under the MIT License
+
+binding_of_caller is licensed under the MIT License
+
+bullet is licensed under the MIT License
+
+byebug is licensed under the MIT License
+
+Bootstrap for Sass is licensed under the MIT License
+
+Capybara is licensed under the MIT License
+
+Database Cleaner is licensed under the MIT License
+
+delorean is licensed under the MIT License
+
+Email Spec is licensed under the MIT License
+
+factory_girl_rails is licensed under the MIT License
+
+faker is licensed under the MIT License
+
+figaro is licensed under the MIT License
 
 FontAwesome font is licensed under the SIL Open Font License
 
+FontAwesome is licensed under the MIT License
+
 FontAwesome pictograms are licensed under the CC BY 3.0 License
+
+google-analytics-rails is licensed under the MIT license
 
 haml is licensed under the MIT License
 
-google-analytics-rails is licensed under the MIT license
+haml_assets is licensed under the MIT License
 
 http_accept_language is licensed under the MIT License
 
 i18n-js is licensed under the MIT License
 
-jquery-rails is licensed under the MIT License
-
 jquery is licensed under the MIT License
 
+jquery-turbolinks is licensed under the MIT License
+
 kaminari is licensed under the MIT License
+
+meta_request is licensed under the MIT License
 
 newrelic_rpm is licensed by New Relic
 
@@ -52,14 +80,42 @@ nokogiri is licensed under the MIT License
 
 pg is licensed under the 2-clause BSD License
 
+pry is licensed under the MIT License
+
+pry-byebug is licensed under the MIT License
+
+pry-rails is licensed under the MIT License
+
 puma is licensed under the BSD License
 
-resque is licensed under the MIT License
+puma_auto_tune is licensed under the MIT License
 
 rabl is licensed under the MIT License
 
+Rack::Timeout is licensed under the MIT License
+
+rails_12factor is licensed under the 2-clause BSD License
+
+resque is licensed under the MIT License
+
 rest-client is licensed under the MIT License
 
-simpleconfig is licensed under the MIT License
+rspec is licensed under the MIT License
+
+rspec-rails is licensed under the MIT License
+
+secure_headers is licensed under the Apache License
+
+selenium-webdriver is licensed under the Apache License
+
+simplecov is licensed under the MIT License
+
+spring_commands_rspec is licensed under the MIT License
+
+twbs_sass_rails is licensed under the 2-clause BSD License
+
+uglifier is licensed under the MIT License
 
 validates_timeliness is licensed under the MIT License
+
+webmock is licensed under the MIT License

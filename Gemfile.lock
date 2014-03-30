@@ -262,7 +262,6 @@ DEPENDENCIES
   i18n-js
   jquery-rails
   jquery-turbolinks
-  launchy
   meta_request
   newrelic_rpm
   pg
@@ -276,7 +275,7 @@ DEPENDENCIES
   rails_12factor
   rspec
   rspec-rails
-  sass-rails (~> 4.0.0)
+  sass-rails (~> 4.0.2)
   selenium-webdriver
   simplecov
   spring
