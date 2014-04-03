@@ -1,5 +1,10 @@
 # Changelog
 
+## 5.0.2
+
+* Load Bootstrap javascripts by default
+* Updated gems
+
 ## 5.0.1
 
 * Fixed License
