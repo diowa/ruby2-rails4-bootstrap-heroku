@@ -1,20 +1,20 @@
 !!!
 %html{ lang: I18n.locale.to_s }
   %head
-    %title= yield_or_default :title, controller.action_name.titlecase
+    %title= yield_or_default :title, action_name.titlecase
     %meta{ charset: 'utf-8' }
     %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0' }
     %meta{ content: 'IE=edge', 'http-equiv' => 'X-UA-Compatible' }
     = csrf_meta_tags
     = yield :head
 
-    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag 'application', media: 'all', data: { turbolinks_track: true }
 
     / Touch icon (uncomment if needed)
     / %link{ href: asset_path('apple-touch-icon-144x144.png'), rel: 'apple-touch-icon', sizes: '144x144' }
 
     / Placed at the top of the document 'cause of turbolinks
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', data: { turbolinks_track: true }
 
     /[if lte IE 8]
       = javascript_include_tag 'http://html5shim.googlecode.com/svn/trunk/html5.js', asset_path('respond.js')
