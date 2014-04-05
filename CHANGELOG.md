@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.3
+
+* Removed Puma Auto Tune (Issue #9)
+* Removed unneeded assets
+* Improved application layout
+* Updated gems
+
 ## 5.0.2
 
 * Load Bootstrap javascripts by default
