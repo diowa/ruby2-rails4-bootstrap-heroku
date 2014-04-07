@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.1.0
+
+* Improved homepage
+* Improved README
+* Updated gems
+
 ## 5.0.3
 
 * Removed Puma Auto Tune (Issue #9)
