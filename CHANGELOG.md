@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.0.0
+
+* Rails 4.1.0
+* Removed Delorean (Rails 4.1.0 has Time.travel)
+
 ## 5.1.0
 
 * Improved homepage
