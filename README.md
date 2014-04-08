@@ -53,7 +53,7 @@ Rails 4.1.0 introduced [secrets.yml](http://edgeguides.rubyonrails.org/upgrading
 $ heroku config:add SECRET_KEY_BASE="$(bundle exec rake secret)"
 ```
 
-**NOTE**: If you want to migrate old cookies, please read the above guide.
+**NOTE**: If you need to migrate old cookies, please read the above guide.
 
 ### Nitrous.IO
 
