@@ -1,10 +1,10 @@
-Rails Starter App [![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.png?branch=master)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku) [![Dependency Status](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku.png)](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku) [![Code Climate](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku.png)](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku) [![Coverage Status](https://coveralls.io/repos/diowa/ruby2-rails4-bootstrap-heroku/badge.png?branch=master)](https://coveralls.io/r/diowa/ruby2-rails4-bootstrap-heroku)
-===========
+# Rails Starter App
+[![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.png?branch=master)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku) [![Dependency Status](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku.png)](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku) [![Code Climate](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku.png)](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku) [![Coverage Status](https://coveralls.io/repos/diowa/ruby2-rails4-bootstrap-heroku/badge.png?branch=master)](https://coveralls.io/r/diowa/ruby2-rails4-bootstrap-heroku)
 
 This is a starter web application based on the following technology stack:
 
 * [Ruby 2.1.1][1]
-* [Rails 4.0.4][2]
+* [Rails 4.1.0][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
@@ -44,6 +44,16 @@ $ heroku addons:add pgbackups:auto-month # Postgres backups
 $ heroku addons:add newrelic:stark # App monitoring
 $ heroku addons:add papertrail # Log monitoring
 ```
+
+### Secrets.yml
+
+Rails 4.1.0 introduced [secrets.yml](http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#config-secrets-yml). In order to run this application on Heroku, you must generate a new secret.
+
+```sh
+$ heroku config:add SECRET_KEY_BASE="$(bundle exec rake secret)"
+```
+
+**NOTE**: If you need to migrate old cookies, please read the above guide.
 
 ### Nitrous.IO
 
