@@ -3,7 +3,7 @@
 ## 6.0.0
 
 * Rails 4.1.0
-* Removed Delorean (Rails 4.1.0 has Time.travel)
+* Removed Delorean (Rails 4.1.0 has Time travelling)
 
 ## 5.1.0
 
