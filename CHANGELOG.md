@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.0.1
+
+* Improved turbolinks spinner
+* Updated gems
+
 ## 6.0.0
 
 * Rails 4.1.0
