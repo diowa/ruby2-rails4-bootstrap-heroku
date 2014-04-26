@@ -1,5 +1,14 @@
 # Changelog
 
+## 6.0.3
+
+* Fixed changelog
+* Updated gems
+
+## 6.0.2
+
+* Using SCSS Syntax
+
 ## 6.0.1
 
 * Improved turbolinks spinner
