@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.6
+
+* Fixed Rails version number
+
 ## 6.0.5
 
 * Fixed version number
