@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.5
+
+* Fixed version number
+
 ## 6.0.4
 
 * Rails 4.1.1
