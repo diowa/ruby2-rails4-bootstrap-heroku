@@ -51,6 +51,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -68,7 +69,6 @@ group :test do
   gem 'database_cleaner'
   gem 'email_spec'
   gem 'rspec'
-  gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webmock', require: false
