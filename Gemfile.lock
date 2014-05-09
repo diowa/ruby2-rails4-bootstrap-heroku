@@ -223,7 +223,7 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (2.2.2)
       coffee-rails
-    twbs_sass_rails (0.6.3)
+    twbs_sass_rails (0.6.4)
       rails (>= 3.2.18)
       sass-rails (>= 3.2)
     tzinfo (1.1.0)

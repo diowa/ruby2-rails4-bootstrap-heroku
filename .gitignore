@@ -61,7 +61,7 @@ brakeman.html
 # Ignore file uploads
 /public/uploads
 
-# Ignore precompiled assets
+# Ignore precompiled assets and source maps
 /public/assets
 
 # Ignore sensitive data
