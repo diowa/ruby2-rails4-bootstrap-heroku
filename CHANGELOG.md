@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.1.1
+
+* Fixed travis build
+
 ## 6.1.0
 
 * Ruby 2.1.2
