@@ -2,6 +2,7 @@
 
 ## 6.1.0
 
+* Ruby 2.1.2
 * Fixed rspec-rails gem group
 * Updated gems
 
