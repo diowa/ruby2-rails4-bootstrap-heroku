@@ -1,5 +1,10 @@
 # Changelog
 
+## 6.1.2
+
+* Fixed readme
+* Updated gems
+
 ## 6.1.1
 
 * Fixed travis build
