@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.1.5
+
+* Updated gems
+
 ## 6.1.4
 
 * Updated gems
