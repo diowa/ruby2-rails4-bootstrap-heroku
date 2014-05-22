@@ -29,7 +29,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (1.1.20140512)
+    autoprefixer-rails (1.1.20140521)
       execjs
     better_errors (1.1.0)
       coderay (>= 1.0.0)
