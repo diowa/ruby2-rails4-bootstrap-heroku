@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.0.0
+
+* Support for app.json
+* Updated gems
+
 ## 6.1.5
 
 * Updated gems
