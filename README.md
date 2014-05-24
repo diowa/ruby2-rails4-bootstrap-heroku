@@ -35,9 +35,9 @@ We assume that this application is thread safe. If your application is not threa
 $ heroku config:set MIN_THREADS=1 MAX_THREADS=1
 ```
 
-### App.json Schema
+### Heroku Platform API
 
-This application uses [app.json](https://devcenter.heroku.com/articles/app-json-schema) to declare environment variables, add-ons, and other information required to run on Heroku.
+This application supports fast setup and deploy via [app.json](https://devcenter.heroku.com/articles/app-json-schema):
 
 ```sh
 $ curl -n -X POST https://api.heroku.com/app-setups \
@@ -45,6 +45,41 @@ $ curl -n -X POST https://api.heroku.com/app-setups \
 -H "Accept:application/vnd.heroku+json; version=3" \
 -d '{"source_blob": { "url":"https://github.com/diowa/ruby2-rails4-bootstrap-heroku/tarball/master/"} }'
 ```
+
+More information: [Setting Up Apps using the Platform API](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api)
+
+### Recommended add-ons
+
+Heroku's [Production Check](https://blog.heroku.com/archives/2013/4/26/introducing_production_check) recommends the use of the following add-ons, here in the free version:
+
+```sh
+$ heroku addons:add newrelic:stark # App monitoring
+$ heroku config:set NEW_RELIC_APP_NAME="Rails Starter App" # Set newrelic app name
+$ heroku addons:add papertrail # Log monitoring
+$ heroku addons:add pgbackups:auto-month # Postgres backups
+```
+
+### Secrets.yml
+
+Rails 4.1.0 introduced [secrets.yml](http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#config-secrets-yml). In order to run this application on Heroku, you must generate a new secret.
+
+```sh
+$ heroku config:add SECRET_KEY_BASE="$(bundle exec rake secret)"
+```
+
+**NOTE**: If you need to migrate old cookies, please read the above guide.
+
+### Tuning Ruby's RGenGC
+
+Generational GC (called RGenGC) was introduced from Ruby 2.1.0. RGenGC reduces marking time dramatically (about x10 faster). However, RGenGC introduce huge memory consumption. This problem has impact especially for small memory machines.
+
+Ruby 2.1.1 introduced new environment variable RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR to control full GC timing. By setting this variable to a value lower than the default of 2 (we are using the suggested value of 1.3) you can indirectly force the garbage collector to perform more major GCs, which reduces heap growth.
+
+```sh
+$ heroku config:set RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR=1.3
+```
+
+More information: [Change the full GC timing](https://bugs.ruby-lang.org/issues/9607)
 
 ### Nitrous.IO
 

@@ -1,6 +1,6 @@
 {
   "name": "Rails Starter App",
-  "description": "A Starter Application based on Ruby2 Rails4 and Twitter Bootstrap, deployable on Heroku, developable on Nitrous.IO",
+  "description": "A starter application based on Ruby 2, Rails 4 and Twitter Bootstrap for Sass, deployable on Heroku, developable on Nitrous.IO",
   "keywords": [
     "Ruby 2",
     "Rails 4",
@@ -15,7 +15,15 @@
     "postdeploy": "bundle exec rake db:migrate"
   },
   "env": {
+    "NEW_RELIC_APP_NAME": {
+      "description": "Sets the name of your application as it will appear on the New Relic dashboard.",
+      "value": "Rails Starter App"
+    },
     "RAILS_ENV": "production",
+    "RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR": {
+      "description": "Reduces RGenGC's memory consumption",
+      "value": "1.3"
+    },
     "SECRET_KEY_BASE": {
       "description": "This gets generated",
       "generator": "secret"
@@ -23,8 +31,8 @@
   },
   "addons": [
     "heroku-postgresql:hobby-dev",
+    "papertrail",
     "pgbackups:auto-month",
-    "newrelic:stark",
-    "papertrail"
+    "newrelic:stark"
   ]
 }
