@@ -12,7 +12,7 @@
   "repository": "https://github.com/diowa/ruby2-rails4-bootstrap-heroku",
   "success_url": "/",
   "scripts": {
-    "postdeploy": "bundle exec rake db:migrate"
+    "postdeploy": "bundle exec rake db:setup db:migrate"
   },
   "env": {
     "RAILS_ENV": "production",
