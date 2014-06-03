@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.1.0
+
+* RSpec 3
+* Updated gems
+
 ## 7.0.0
 
 * Support for app.json
