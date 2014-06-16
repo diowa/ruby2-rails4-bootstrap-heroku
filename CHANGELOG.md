@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.1.1
+
+* Updated gems
+
 ## 7.1.0
 
 * RSpec 3
