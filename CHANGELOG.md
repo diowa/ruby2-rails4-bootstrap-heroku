@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.2.1
+
+* Fixed readme
+
 ## 7.2.0
 
 * Rails 4.1.2
