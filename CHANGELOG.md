@@ -1,5 +1,13 @@
 # Changelog
 
+## 7.2.0
+
+* Rails 4.1.2
+* Bootstrap 3.2.0
+* Fontawesome 4.1.0
+* Autoprefixer 2
+* Updated gems
+
 ## 7.1.1
 
 * Updated gems
