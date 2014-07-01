@@ -29,7 +29,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (2.0.0.20140622)
+    autoprefixer-rails (2.1.0.20140628)
       execjs
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -37,7 +37,7 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
-    bullet (4.11.2)
+    bullet (4.11.3)
       activesupport (>= 3.0.0)
       uniform_notifier (>= 1.6.0)
     byebug (2.7.0)
