@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.3.1
+
+* Fixed homepage
+
 ## 7.3.0
 
 * Rails 4.1.4
