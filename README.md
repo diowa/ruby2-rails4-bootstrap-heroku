@@ -4,7 +4,7 @@
 This is a starter web application based on the following technology stack:
 
 * [Ruby 2.1.2][1]
-* [Rails 4.1.2][2]
+* [Rails 4.1.4][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
@@ -61,7 +61,7 @@ $ heroku addons:add pgbackups:auto-month # Postgres backups
 
 ### Secrets.yml
 
-Rails 4.1.0 introduced [secrets.yml](http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#config-secrets-yml). In order to run this application on Heroku, you must generate a new secret.
+Rails 4.1.0 introduced [secrets.yml](http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#config/secrets.yml). Heroku automatically sets a proper configuration variable in new applications. Just in case you need, the command line is:
 
 ```sh
 $ heroku config:add SECRET_KEY_BASE="$(bundle exec rake secret)"
