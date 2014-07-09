@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.3.2
+
+* Updated gems
+
 ## 7.3.1
 
 * Fixed homepage
