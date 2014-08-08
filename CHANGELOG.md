@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.4.0
+
+* Added Deploy to Heroku button
+* Updated gems
+* Updated html5shiv
+
 ## 7.3.6
 
 * Updated gems

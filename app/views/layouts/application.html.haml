@@ -17,7 +17,7 @@
     = javascript_include_tag 'application', data: { turbolinks_track: true }
 
     /[if lte IE 8]
-      = javascript_include_tag 'http://html5shim.googlecode.com/svn/trunk/html5.js', asset_path('respond.js')
+      = javascript_include_tag '//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js', asset_path('respond.js')
 
   %body
     = render 'shared/navbar'
