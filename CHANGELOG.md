@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.4.1
+
+* Repo-agnostic button
+
 ## 7.4.0
 
 * Added Deploy to Heroku button
