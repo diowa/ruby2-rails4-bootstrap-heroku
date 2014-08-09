@@ -29,7 +29,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.6)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (2.2.0.20140727)
+    autoprefixer-rails (2.2.0.20140804)
       execjs
     better_errors (1.1.0)
       coderay (>= 1.0.0)
@@ -232,7 +232,7 @@ GEM
     twbs_sass_rails (0.7.2)
       rails (>= 3.2.18)
       sass-rails (>= 3.2)
-    tzinfo (1.2.1)
+    tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
