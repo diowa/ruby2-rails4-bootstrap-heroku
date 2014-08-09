@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.4.2
+
+* Updated gems
+
 ## 7.4.1
 
 * Repo-agnostic button
