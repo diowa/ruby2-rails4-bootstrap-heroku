@@ -26,7 +26,7 @@ This is a starter web application based on the following technology stack:
 [8]: http://fontawesome.io/
 [9]: http://haml.info/
 
-Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
+Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-mongodb-bootstrap.herokuapp.com/
 
 ```Gemfile``` also contains a set of useful gems for performance, security, api building...
 
