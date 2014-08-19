@@ -12,8 +12,8 @@ gem 'puma'
 # API
 # gem 'rabl'
 
-# ORM
-gem 'pg'
+# ODM
+gem 'mongoid'
 
 # Pagination
 # gem 'kaminari'
@@ -68,6 +68,7 @@ group :test do
   gem 'coveralls', require: false
   gem 'database_cleaner'
   gem 'email_spec'
+  gem 'mongoid-rspec'
   gem 'rspec'
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
