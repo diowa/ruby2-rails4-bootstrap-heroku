@@ -9,7 +9,7 @@
     "Font Awesome",
     "Nitrous.IO"
   ],
-  "website": "http://ruby2-rails4-mongodb-bootstrap-heroku.herokuapp.com/",
+  "website": "http://ruby2-rails4-mongodb-bootstrap.herokuapp.com/",
   "repository": "https://github.com/diowa/ruby2-rails4-bootstrap-heroku/tree/mongoid",
   "success_url": "/",
   "scripts": {
