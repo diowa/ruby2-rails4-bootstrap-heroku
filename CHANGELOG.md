@@ -1,5 +1,10 @@
 # Changelog
 
+## 7.4.3
+
+* Rails 4.1.5
+* Updated gems
+
 ## 7.4.2
 
 * Updated gems
