@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.4.4
+
+* Updated badges
+
 ## 7.4.3
 
 * Rails 4.1.5
