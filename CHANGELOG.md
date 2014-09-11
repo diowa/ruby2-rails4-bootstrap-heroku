@@ -1,5 +1,14 @@
 # Changelog
 
+## 8.0.0
+
+* Rails 4.1.6
+* Fontawesome 4.2.0
+* Added apple touch icon
+* Improved application layout
+* Removed `l` and `reload!` aliases for pry
+* Updated gems
+
 ## 7.4.4
 
 * Updated badges
