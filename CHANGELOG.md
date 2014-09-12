@@ -1,8 +1,14 @@
 # Changelog
 
+## 8.0.1
+
+* Updated gems
+* Fixed readme
+
 ## 8.0.0
 
 * Rails 4.1.6
+* Bootstrap for Sass 3.2.0+2
 * Fontawesome 4.2.0
 * Added apple touch icon
 * Improved application layout
