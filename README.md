@@ -46,7 +46,7 @@ This application supports fast setup and deploy via [app.json](https://devcenter
 $ curl -n -X POST https://api.heroku.com/app-setups \
 -H "Content-Type:application/json" \
 -H "Accept:application/vnd.heroku+json; version=3" \
--d '{"source_blob": { "url":"https://github.com/diowa/ruby2-rails4-bootstrap-heroku/tarball/master/"} }'
+-d '{"source_blob": { "url":"https://github.com/diowa/ruby2-rails4-bootstrap-heroku/tarball/mongoid/"} }'
 ```
 
 More information: [Setting Up Apps using the Platform API](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api)
