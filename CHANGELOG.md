@@ -1,5 +1,10 @@
 # Changelog
 
+## 8.0.2
+
+* Updated gems
+* Fixed version number
+
 ## 8.0.1
 
 * Updated gems
