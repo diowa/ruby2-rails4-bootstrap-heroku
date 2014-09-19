@@ -6,7 +6,7 @@
 
 This is a starter web application based on the following technology stack:
 
-* [Ruby 2.1.2][1]
+* [Ruby 2.1.3][1]
 * [Rails 4.1.6][2]
 * [Puma][3]
 * [PostgreSQL][4]
