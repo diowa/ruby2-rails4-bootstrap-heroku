@@ -1,5 +1,10 @@
 # Changelog
 
+## 8.0.3
+
+* Ruby 2.1.3
+* Updated gems
+
 ## 8.0.2
 
 * Updated gems
