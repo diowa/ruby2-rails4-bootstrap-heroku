@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.1.3'
-gem 'rails', '4.1.6'
+gem 'rails', '4.2.0.beta2'
 
 # Servers
 gem 'puma'
@@ -36,9 +36,9 @@ gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'haml_assets'
 gem 'i18n-js'
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.0.0.beta2'
 gem 'jquery-turbolinks'
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0.0.beta1'
 gem 'turbolinks'
 gem 'twbs_sass_rails'
 gem 'uglifier', '>= 1.3.0'
@@ -52,6 +52,9 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'
+  gem 'spring'
+  gem 'spring-commands-rspec'
+  gem 'web-console', '~> 2.0.0.beta4'
 end
 
 group :development do
@@ -59,8 +62,6 @@ group :development do
   gem 'binding_of_caller'
   gem 'bullet'
   gem 'meta_request'
-  gem 'spring'
-  gem 'spring-commands-rspec'
 end
 
 group :test do
