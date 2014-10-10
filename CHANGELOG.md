@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.0.5
+
+* Updated gems
+
 ## 8.0.4
 
 * Updated gems
