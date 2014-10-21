@@ -1,5 +1,11 @@
 # Changelog
 
+## 9.0.0
+
+* Updated coffee-rails dependency
+* Default coffeescript assets to .coffee extension
+* Updated gems
+
 ## 8.0.6
 
 * Updated gems
