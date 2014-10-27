@@ -1,5 +1,10 @@
 # Changelog
 
+## 10.0.0
+
+* Turbolinks progress bar
+* Updated gems
+
 ## 9.0.0
 
 * Updated coffee-rails dependency
