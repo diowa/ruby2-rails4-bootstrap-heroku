@@ -2,6 +2,11 @@
 
 ## 10.0.0
 
+* Bootstrap for sass 3.3.0
+* Updated gems
+
+## 10.0.0
+
 * Turbolinks progress bar
 * Updated gems
 
