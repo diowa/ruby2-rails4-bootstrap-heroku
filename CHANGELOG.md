@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.1.4
+
+* Fixed travis config
+
 ## 10.1.3
 
 * Updated gems
