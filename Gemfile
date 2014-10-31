@@ -28,6 +28,7 @@ gem 'newrelic_rpm'
 # Miscellanea
 # gem 'google-analytics-rails'
 gem 'haml'
+gem 'haml-rails'
 # gem 'http_accept_language'
 # gem 'resque', require: 'resque/server' # Resque web interface
 

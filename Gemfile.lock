@@ -94,6 +94,11 @@ GEM
     ffi (1.9.6)
     haml (4.0.5)
       tilt
+    haml-rails (0.5.3)
+      actionpack (>= 4.0.1)
+      activesupport (>= 4.0.1)
+      haml (>= 3.1, < 5.0)
+      railties (>= 4.0.1)
     haml_assets (0.2.2)
       haml
       tilt
@@ -260,6 +265,7 @@ DEPENDENCIES
   factory_girl_rails
   faker
   haml
+  haml-rails
   haml_assets
   i18n-js
   jquery-rails

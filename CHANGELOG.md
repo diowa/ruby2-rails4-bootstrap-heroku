@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.2.0
+
+* Added haml-rails gem
+
 ## 10.1.5
 
 * Fixed index
