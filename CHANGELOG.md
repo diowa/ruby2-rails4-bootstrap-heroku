@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.1.3
+
+* Updated gems
+
 ## 10.1.2
 
 * Ruby 2.1.4
