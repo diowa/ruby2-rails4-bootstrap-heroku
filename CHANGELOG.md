@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.1.5
+
+* Fixed index
+
 ## 10.1.4
 
 * Fixed travis config
