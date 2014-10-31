@@ -1,6 +1,11 @@
 # Changelog
 
-## 10.0.0
+## 10.1.1
+
+* Rails 4.1.7
+* Updated gems
+
+## 10.1.0
 
 * Bootstrap for sass 3.3.0
 * Updated gems
