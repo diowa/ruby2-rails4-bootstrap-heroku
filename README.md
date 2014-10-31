@@ -6,12 +6,12 @@
 
 This is a starter web application based on the following technology stack:
 
-* [Ruby 2.1.3][1]
-* [Rails 4.1.6][2]
+* [Ruby 2.1.4][1]
+* [Rails 4.1.7][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
-* [Twitter Bootstrap for Sass 3.2.0+2][6]
+* [Twitter Bootstrap for Sass 3.3.0][6]
 * [Autoprefixer][7]
 * [Font Awesome 4.2.0][8]
 * [HAML][9]

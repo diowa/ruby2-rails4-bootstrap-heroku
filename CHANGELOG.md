@@ -1,5 +1,42 @@
 # Changelog
 
+## 10.1.3
+
+* Updated gems
+
+## 10.1.2
+
+* Ruby 2.1.4
+
+## 10.1.1
+
+* Rails 4.1.7
+* Updated gems
+
+## 10.1.0
+
+* Bootstrap for sass 3.3.0
+* Updated gems
+
+## 10.0.0
+
+* Turbolinks progress bar
+* Updated gems
+
+## 9.0.0
+
+* Updated coffee-rails dependency
+* Default coffeescript assets to .coffee extension
+* Updated gems
+
+## 8.0.6
+
+* Updated gems
+
+## 8.0.5
+
+* Updated gems
+
 ## 8.0.4
 
 * Updated gems

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.1.3'
-gem 'rails', '4.2.0.beta2'
+ruby '2.1.4'
+gem 'rails', '4.2.0.beta4'
 
 # Servers
 gem 'puma'
@@ -33,14 +33,14 @@ gem 'haml'
 
 # Assets
 gem 'autoprefixer-rails'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.1.0'
 gem 'haml_assets'
 gem 'i18n-js'
 gem 'jquery-rails', '~> 4.0.0.beta2'
 gem 'jquery-turbolinks'
 gem 'sass-rails', '~> 5.0.0.beta1'
 gem 'turbolinks'
-gem 'twbs_sass_rails'
+gem 'twbs_sass_rails', github: 'diowa/twbs_sass_rails', branch: 'feature/rails-4.2'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do

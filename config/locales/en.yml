@@ -24,5 +24,3 @@ en:
   shared:
     navbar:
       toggle_navigation: Toggle Navigation
-    turbolinks_spinner:
-      loading: "Loading..."
