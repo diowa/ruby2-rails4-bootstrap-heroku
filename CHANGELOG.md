@@ -3,6 +3,7 @@
 ## 10.2.0
 
 * Added haml-rails gem
+* Updated gems
 
 ## 10.1.5
 
