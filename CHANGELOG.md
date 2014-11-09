@@ -1,8 +1,9 @@
 # Changelog
 
-## 10.2.0
+## 11.0.0
 
-* Added haml-rails gem
+* Added haml-rails and quiet_assets gem
+* Removed delorean gem
 * Updated gems
 
 ## 10.1.5

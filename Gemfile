@@ -46,7 +46,6 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
   gem 'byebug'
-  gem 'delorean'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry'
@@ -60,6 +59,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'bullet'
   gem 'meta_request'
+  gem 'quiet_assets'
   gem 'spring'
   gem 'spring-commands-rspec'
 end
