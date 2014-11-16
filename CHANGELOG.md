@@ -1,5 +1,10 @@
 # Changelog
 
+## 11.1.0
+
+* Bootstrap for sass 3.3.1
+* Updated gems
+
 ## 11.0.0
 
 * Added haml-rails and quiet_assets gem
