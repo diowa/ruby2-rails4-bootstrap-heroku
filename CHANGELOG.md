@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.1.2
+
+* Fixed index and readme
+
 ## 11.1.1
 
 * Rails 4.1.8
