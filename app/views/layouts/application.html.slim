@@ -2,16 +2,16 @@ doctype html
 html lang=I18n.locale.to_s
   head
     title= yield_or_default :title, action_name.titlecase
-    meta charset="utf-8"
-    meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
-    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta charset='utf-8'
+    meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0'
+    meta content='IE=edge' http-equiv='X-UA-Compatible'
     = csrf_meta_tags
     = yield :head
 
     = stylesheet_link_tag 'application', media: 'all', data: { turbolinks_track: true }
 
     /! Favicons
-    link href=asset_path('apple-touch-icon-precomposed.png') rel="apple-touch-icon-precomposed" sizes="144x144"
+    link href=asset_path('apple-touch-icon-precomposed.png') rel='apple-touch-icon-precomposed' sizes='144x144'
 
     /! Turbolinks require javascript tags inside the head
     = javascript_include_tag 'application', data: { turbolinks_track: true }
