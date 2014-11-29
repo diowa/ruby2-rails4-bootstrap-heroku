@@ -1,5 +1,37 @@
 # Changelog
 
+## 11.1.3
+
+* Updated gems
+
+## 11.1.2
+
+* Fixed index and readme
+
+## 11.1.1
+
+* Rails 4.1.8
+* Updated gems
+
+## 11.1.0
+
+* Bootstrap for sass 3.3.1
+* Updated gems
+
+## 11.0.0
+
+* Added haml-rails and quiet_assets gem
+* Removed delorean gem
+* Updated gems
+
+## 10.1.5
+
+* Fixed index
+
+## 10.1.4
+
+* Fixed travis config
+
 ## 10.1.3
 
 * Updated gems

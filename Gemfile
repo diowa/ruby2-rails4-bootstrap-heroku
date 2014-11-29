@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.1.4'
-gem 'rails', '4.2.0.beta4'
+gem 'rails', '4.2.0.rc1'
 
 # Servers
 gem 'puma'
@@ -27,14 +27,13 @@ gem 'newrelic_rpm'
 
 # Miscellanea
 # gem 'google-analytics-rails'
-gem 'haml'
+gem 'slim-rails'
 # gem 'http_accept_language'
 # gem 'resque', require: 'resque/server' # Resque web interface
 
 # Assets
 gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'haml_assets'
 gem 'i18n-js'
 gem 'jquery-rails', '~> 4.0.0.beta2'
 gem 'jquery-turbolinks'
@@ -45,16 +44,13 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
   gem 'byebug'
-  gem 'delorean'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'spring'
-  gem 'spring-commands-rspec'
-  gem 'web-console', '~> 2.0.0.beta4'
+  gem 'web-console'
 end
 
 group :development do
@@ -62,6 +58,9 @@ group :development do
   gem 'binding_of_caller'
   gem 'bullet'
   gem 'meta_request'
+  gem 'quiet_assets'
+  gem 'spring'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
