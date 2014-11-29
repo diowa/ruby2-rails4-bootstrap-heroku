@@ -56,10 +56,6 @@ FontAwesome pictograms are licensed under the CC BY 3.0 License
 
 google-analytics-rails is licensed under the MIT license
 
-haml is licensed under the MIT License
-
-haml_assets is licensed under the MIT License
-
 http_accept_language is licensed under the MIT License
 
 i18n-js is licensed under the MIT License
@@ -107,6 +103,8 @@ secure_headers is licensed under the Apache License
 selenium-webdriver is licensed under the Apache License
 
 simplecov is licensed under the MIT License
+
+slim-rails is licensed under the MIT License
 
 spring_commands_rspec is licensed under the MIT License
 

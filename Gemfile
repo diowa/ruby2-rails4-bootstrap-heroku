@@ -27,15 +27,13 @@ gem 'newrelic_rpm'
 
 # Miscellanea
 # gem 'google-analytics-rails'
-gem 'haml'
-gem 'haml-rails'
+gem 'slim-rails'
 # gem 'http_accept_language'
 # gem 'resque', require: 'resque/server' # Resque web interface
 
 # Assets
 gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'haml_assets'
 gem 'i18n-js'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
