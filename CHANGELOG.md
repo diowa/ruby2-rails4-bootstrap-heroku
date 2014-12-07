@@ -1,5 +1,10 @@
 # Changelog
 
+## 12.0.0
+
+* Moved to SLIM
+* Updated gems
+
 ## 11.1.3
 
 * Updated gems
