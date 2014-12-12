@@ -4,6 +4,7 @@
 
 * Moved to SLIM
 * Updated gems
+* Ruby 2.1.5
 
 ## 11.1.3
 
