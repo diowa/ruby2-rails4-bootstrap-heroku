@@ -2,9 +2,11 @@
 
 ## 12.0.0
 
-* Moved to SLIM
-* Updated gems
+* Rails 4.2
 * Ruby 2.1.5
+* Moved to SLIM
+* Changed brand primary color to MARSALA PANTONE 18-1438 (Pantone of the Year 2015)
+* Updated gems
 
 ## 11.1.3
 
