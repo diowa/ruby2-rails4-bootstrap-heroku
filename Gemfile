@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.1.4'
-gem 'rails', '4.1.8'
+ruby '2.2.0'
+gem 'rails', '4.2.0'
 
 # Servers
 gem 'puma'
@@ -27,19 +27,18 @@ gem 'newrelic_rpm'
 
 # Miscellanea
 # gem 'google-analytics-rails'
-gem 'haml'
-gem 'haml-rails'
 # gem 'http_accept_language'
 # gem 'resque', require: 'resque/server' # Resque web interface
+gem 'slim-rails'
 
 # Assets
 gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'haml_assets'
 gem 'i18n-js'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 5.0'
+gem 'slim_assets'
 gem 'turbolinks'
 gem 'twbs_sass_rails'
 gem 'uglifier', '>= 1.3.0'
@@ -52,6 +51,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'
+  gem 'web-console'
 end
 
 group :development do

@@ -1,5 +1,13 @@
 # Changelog
 
+## 12.0.0
+
+* Rails 4.2
+* Ruby 2.2.0
+* Moved to SLIM
+* Changed brand primary color to MARSALA PANTONE 18-1438 (Pantone of the Year 2015)
+* Updated gems
+
 ## 11.1.3
 
 * Updated gems
