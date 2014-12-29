@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.0.1
+
+* Updated gems
+
 ## 12.0.0
 
 * Rails 4.2
