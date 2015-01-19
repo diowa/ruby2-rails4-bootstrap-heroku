@@ -1,5 +1,12 @@
 # Changelog
 
+## 12.1.0
+
+* Bootstrap 3.3.2
+* Update gems
+* Update LICENSE
+* Update coveralls badge
+
 ## 12.0.3
 
 * Updated gems
