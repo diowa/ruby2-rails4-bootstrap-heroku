@@ -1,5 +1,5 @@
 # Rails Starter App
-[![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.svg?branch=master)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku) [![Dependency Status](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku.svg)](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku) [![Code Climate](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku/badges/gpa.svg)](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku) [![Coverage Status](https://img.shields.io/coveralls/diowa/ruby2-rails4-bootstrap-heroku.svg)](https://coveralls.io/r/diowa/ruby2-rails4-bootstrap-heroku?branch=master)
+[![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.svg?branch=master)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku) [![Dependency Status](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku.svg)](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku) [![Code Climate](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku/badges/gpa.svg)](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku) [![Coverage Status](https://coveralls.io/repos/diowa/ruby2-rails4-bootstrap-heroku/badge.svg?branch=master)](https://coveralls.io/r/diowa/ruby2-rails4-bootstrap-heroku?branch=master)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -11,7 +11,7 @@ This is a starter web application based on the following technology stack:
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
-* [Twitter Bootstrap for Sass 3.3.1][6]
+* [Twitter Bootstrap for Sass 3.3.2][6]
 * [Autoprefixer][7]
 * [Font Awesome 4.2.0][8]
 * [SLIM][9]
