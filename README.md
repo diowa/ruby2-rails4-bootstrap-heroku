@@ -13,7 +13,7 @@ This is a starter web application based on the following technology stack:
 * [RSpec][5]
 * [Twitter Bootstrap for Sass 3.3.2][6]
 * [Autoprefixer][7]
-* [Font Awesome 4.2.0][8]
+* [Font Awesome 4.3.0][8]
 * [SLIM][9]
 
 [1]: http://www.ruby-lang.org/en/
