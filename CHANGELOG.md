@@ -1,5 +1,10 @@
 # Changelog
 
+## 12.2.0
+
+* Font Awesome 4.3.0
+* Update gems
+
 ## 12.1.0
 
 * Bootstrap 3.3.2
