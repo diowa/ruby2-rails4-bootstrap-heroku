@@ -67,7 +67,8 @@ end
 group :test do
   gem 'capybara'
   gem 'coveralls', require: false
-  gem 'database_cleaner', '1.3.0' # TODO: Issue DatabaseCleaner/database_cleaner#322
+  gem 'mongoid-tree' # NOTE: DatabaseCleaner/database_cleaner issue #299
+  gem 'database_cleaner'
   gem 'email_spec'
   gem 'mongoid-rspec'
   gem 'rspec'
