@@ -1,5 +1,10 @@
 # Changelog
 
+## 12.2.1
+
+* Bootstrap for Sass 3.3.3
+* Update gems
+
 ## 12.2.0
 
 * Font Awesome 4.3.0
