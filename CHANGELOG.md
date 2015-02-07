@@ -1,5 +1,10 @@
 # Changelog
 
+## 12.2.3
+
+* Update gems
+* Attempt to fix navbar on android 2.3
+
 ## 12.2.2
 
 * Update gems
