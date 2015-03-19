@@ -1,5 +1,11 @@
 # Changelog
 
+## 12.3.0
+
+* Rails 4.2.1
+* Ruby 2.2.1
+* Update gems
+
 ## 12.2.4
 
 * Update gems
