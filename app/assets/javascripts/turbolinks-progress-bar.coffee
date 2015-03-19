@@ -1,2 +1,2 @@
 # TODO: Remove with Turbolinks 3
-Turbolinks.enableProgressBar();
+Turbolinks.enableProgressBar() if window.Turbolinks
