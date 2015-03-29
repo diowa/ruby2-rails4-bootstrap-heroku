@@ -1,5 +1,10 @@
 # Changelog
 
+## 12.3.1
+
+* Fix readme
+* Update gems
+
 ## 12.3.0
 
 * Rails 4.2.1
