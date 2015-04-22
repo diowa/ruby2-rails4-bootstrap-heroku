@@ -1,7 +1,9 @@
 AllCops:
   Exclude:
     - 'bin/*'
-    - 'db/schema.rb'
+    - 'db/**/*'
+    - 'spec/**/*'
+    - 'vendor/bundle/**/*'
   RunRailsCops: true
 
 Metrics/LineLength:
