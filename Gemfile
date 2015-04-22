@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.1'
+ruby '2.2.2'
 gem 'rails', '4.2.1'
 
 # Servers
@@ -76,7 +76,7 @@ group :test do
 end
 
 group :staging, :production do
-  #gem 'puma_auto_tune'
+  # gem 'puma_auto_tune'
   gem 'rack-timeout'
   gem 'rails_12factor'
 end
