@@ -1,0 +1,24 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/schema.rb'
+  RunRailsCops: true
+
+Metrics/LineLength:
+  AllowURI: true
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Exclude:
+    - 'config/initializers/*'
+
+Style/SingleSpaceBeforeFirstArg:
+  Exclude:
+    - 'config/puma.rb'
+
+Style/SpaceAroundOperators:
+  Exclude:
+    - 'config/puma.rb'

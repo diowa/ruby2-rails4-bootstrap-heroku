@@ -70,6 +70,7 @@ group :test do
   gem 'database_cleaner'
   gem 'email_spec'
   gem 'rspec'
+  gem 'rubocop', require: false
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webmock', require: false
