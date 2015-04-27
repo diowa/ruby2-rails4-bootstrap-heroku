@@ -12,15 +12,3 @@ Metrics/LineLength:
 
 Style/Documentation:
   Enabled: false
-
-Style/IfUnlessModifier:
-  Exclude:
-    - 'config/initializers/*'
-
-Style/SingleSpaceBeforeFirstArg:
-  Exclude:
-    - 'config/puma.rb'
-
-Style/SpaceAroundOperators:
-  Exclude:
-    - 'config/puma.rb'

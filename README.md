@@ -15,6 +15,7 @@ This is a starter web application based on the following technology stack:
 * [Autoprefixer][7]
 * [Font Awesome 4.3.0][8]
 * [SLIM][9]
+* [RuboCop][10]
 
 [1]: http://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
@@ -25,6 +26,7 @@ This is a starter web application based on the following technology stack:
 [7]: http://github.com/ai/autoprefixer/
 [8]: http://fontawesome.io/
 [9]: http://slim-lang.com/
+[10]: http://github.com/bbatsov/rubocop
 
 Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 
