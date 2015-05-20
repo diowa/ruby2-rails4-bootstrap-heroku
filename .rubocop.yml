@@ -7,7 +7,6 @@ AllCops:
   RunRailsCops: true
 
 Metrics/LineLength:
-  AllowURI: true
   Enabled: false
 
 Style/Documentation:

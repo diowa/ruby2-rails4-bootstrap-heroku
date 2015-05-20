@@ -7,6 +7,6 @@ RuboCop::RakeTask.new
 
 task test: :spec
 
-task default: [:spec, :rubocop]
+task default: [:rubocop, :spec]
 
 Rails.application.load_tasks
