@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.1'
+ruby '2.2.2'
 gem 'rails', '4.2.1'
 
 # Servers
@@ -70,13 +70,14 @@ group :test do
   gem 'database_cleaner'
   gem 'email_spec'
   gem 'rspec'
+  gem 'rubocop', require: false
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webmock', require: false
 end
 
 group :staging, :production do
-  #gem 'puma_auto_tune'
+  # gem 'puma_auto_tune'
   gem 'rack-timeout'
   gem 'rails_12factor'
 end
