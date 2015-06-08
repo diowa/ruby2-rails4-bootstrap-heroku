@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.0.0
+
+* Ruby 2.2.2
+* Add RuboCop
+* Update gems
+
 ## 12.3.3
 
 * Update gems

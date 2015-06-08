@@ -1,3 +1,1 @@
-if defined? PumaAutoTune
-  PumaAutoTune.start
-end
+PumaAutoTune.start if defined?(PumaAutoTune)

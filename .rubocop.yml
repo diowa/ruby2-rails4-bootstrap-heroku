@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/**/*'
+    - 'spec/**/*'
+    - 'vendor/bundle/**/*'
+  RunRailsCops: true
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
