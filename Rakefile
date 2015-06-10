@@ -2,8 +2,16 @@
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
 require File.expand_path('../config/application', __FILE__)
-require 'rubocop/rake_task'
-RuboCop::RakeTask.new
+
+begin
+  require 'rubocop/rake_task'
+  RuboCop::RakeTask.new
+rescue LoadError
+  desc 'Run RuboCop'
+  task :rubocop do
+    $stderr.puts 'Rubocop is disabled'
+  end
+end
 
 task test: :spec
 
