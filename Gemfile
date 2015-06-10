@@ -79,6 +79,5 @@ end
 group :staging, :production do
   # gem 'puma_auto_tune'
   gem 'rack-timeout'
-  gem 'rack-zippy'
   gem 'rails_12factor'
 end
