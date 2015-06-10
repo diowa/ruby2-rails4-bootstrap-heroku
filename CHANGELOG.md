@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.1.0
+
+* Add rack-zippy
+* Improve app.json
+* Fix rubocop issues
+
 ## 13.0.0
 
 * Ruby 2.2.2
