@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.1.1
+
+* Remove rack-zippy since sprockets3 does not compress assets
+
 ## 13.1.0
 
 * Add rack-zippy
