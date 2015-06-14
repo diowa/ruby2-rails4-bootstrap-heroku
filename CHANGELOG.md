@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.1.2
+
+* Update gems
+
 ## 13.1.1
 
 * Remove rack-zippy since sprockets3 does not compress assets
