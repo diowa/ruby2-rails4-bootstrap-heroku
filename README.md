@@ -7,11 +7,11 @@
 This is a starter web application based on the following technology stack:
 
 * [Ruby 2.2.2][1]
-* [Rails 4.2.1][2]
+* [Rails 4.2.2][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
-* [Twitter Bootstrap for Sass 3.3.4][6]
+* [Twitter Bootstrap for Sass 3.3.5][6]
 * [Autoprefixer][7]
 * [Font Awesome 4.3.0][8]
 * [SLIM][9]
