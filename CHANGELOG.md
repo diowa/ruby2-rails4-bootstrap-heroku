@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.2.1
+
+* Fix readme
+
 ## 13.2.0
 
 * Rails 4.2.2
