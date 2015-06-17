@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.2.0
+
+* Rails 4.2.2
+* Bootstrap for Sass 3.3.5
+
 ## 13.1.2
 
 * Update gems
