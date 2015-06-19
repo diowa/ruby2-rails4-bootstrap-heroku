@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.2.2
+
+* Update gems
+
 ## 13.2.1
 
 * Fix readme
