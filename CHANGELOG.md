@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.4.0
+
+* Font Awesome 4.4.0
+* Fix whitespace in config.ru
+* Update gems
+
 ## 13.3.1
 
 * Update gems
