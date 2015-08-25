@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.5.1
+
+* Fix app.json
+
 ## 13.5.0
 
 * Rails 4.2.4
