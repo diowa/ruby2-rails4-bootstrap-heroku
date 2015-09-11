@@ -33,7 +33,6 @@
   "addons": [
     "heroku-postgresql:hobby-dev",
     "papertrail",
-    "pgbackups:auto-month",
-    "newrelic:stark"
+    "newrelic"
   ]
 }
