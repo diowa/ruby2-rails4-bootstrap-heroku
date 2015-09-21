@@ -1,6 +1,7 @@
 language: ruby
 services:
   - mongodb
+sudo: false
 rvm:
   - 2.2.2
 before_install:

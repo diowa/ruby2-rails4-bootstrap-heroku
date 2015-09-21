@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.5.4
+
+* Update Travis CI configuration
+
 ## 13.5.3
 
 * Fix version number
