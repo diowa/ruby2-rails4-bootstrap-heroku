@@ -33,6 +33,6 @@
   "addons": [
     "mongolab:sandbox",
     "papertrail",
-    "newrelic:stark"
+    "newrelic"
   ]
 }
