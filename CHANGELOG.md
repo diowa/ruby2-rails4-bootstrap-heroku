@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.5.2
+
+* Update gems
+
 ## 13.5.1
 
 * Fix app.json
