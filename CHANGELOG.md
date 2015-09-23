@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.6.1
+
+* Fix gemfile
+
 ## 13.6.0
 
 * Ruby 2.2.3
