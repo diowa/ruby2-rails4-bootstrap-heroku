@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.6.0
+
+* Ruby 2.2.3
+* Update gems
+
 ## 13.5.4
 
 * Update Travis CI configuration
