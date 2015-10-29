@@ -1,6 +1,8 @@
 RSpec.configure do |config|
   config.include Mongoid::Matchers
 
+  Mongo::Logger.logger.level = Logger::FATAL
+
   config.before(:suite) do
     DatabaseCleaner.clean_with :truncation
   end

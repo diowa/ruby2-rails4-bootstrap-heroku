@@ -67,7 +67,7 @@ end
 group :test do
   gem 'capybara'
   gem 'coveralls', require: false
-  gem 'database_cleaner', github: 'DatabaseCleaner/database_cleaner'
+  gem 'database_cleaner'
   gem 'email_spec'
   gem 'mongoid-rspec'
   gem 'rspec'
