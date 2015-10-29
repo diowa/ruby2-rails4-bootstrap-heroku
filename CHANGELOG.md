@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.6.2
+
+* Update gems
+
 ## 13.6.1
 
 * Fix gemfile
