@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.7.0
+
+* Rails 4.2.5
+* Update gems
+
 ## 13.6.2
 
 * Update gems
