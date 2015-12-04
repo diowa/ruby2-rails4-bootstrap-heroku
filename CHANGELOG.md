@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.8.1
+
+* Update gems
+
 ## 13.8.0
 
 * Bootstrap for Sass 3.3.6
