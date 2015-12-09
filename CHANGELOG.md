@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.9.0
+
+* Improve application layout
+* Change brand primary color to SERENITY PLUS Series 7451 C (Pantone of the Year 2016)
+* Update LICENSE
+
 ## 13.8.3
 
 * Update gems
