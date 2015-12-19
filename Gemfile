@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.2.4'
 gem 'rails', '4.2.5'
 
 # Servers
@@ -51,7 +51,6 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'web-console'
 end
 
 group :development do
@@ -62,6 +61,7 @@ group :development do
   gem 'quiet_assets'
   gem 'spring'
   gem 'spring-commands-rspec'
+  gem 'web-console'
 end
 
 group :test do
