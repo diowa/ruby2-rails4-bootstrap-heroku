@@ -133,7 +133,7 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
-    mongo (2.2.0)
+    mongo (2.2.1)
       bson (~> 4.0)
     mongoid (5.0.1)
       activemodel (~> 4.0)
