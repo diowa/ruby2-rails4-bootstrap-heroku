@@ -9,5 +9,5 @@ environment ENV['RACK_ENV'] || 'development'
 
 on_worker_boot do
   # worker specific setup
-  Mongoid::Sessions.disconnect
+  Mongoid::Clients.disconnect
 end
