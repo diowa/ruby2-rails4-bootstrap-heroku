@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.11.0
+
+* Ruby 2.3.0
+* Update gems
+
 ## 13.10.0
 
 * Ruby 2.2.4
