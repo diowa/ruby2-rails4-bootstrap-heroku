@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.11.1
+
+* Update gems
+
 ## 13.11.0
 
 * Ruby 2.3.0
