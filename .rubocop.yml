@@ -9,5 +9,8 @@ AllCops:
 Metrics/LineLength:
   Enabled: false
 
+Rails/FindBy:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
