@@ -4,10 +4,12 @@ AllCops:
     - 'db/**/*'
     - 'spec/**/*'
     - 'vendor/bundle/**/*'
-  RunRailsCops: true
 
 Metrics/LineLength:
   Enabled: false
+
+Rails:
+  Enabled: true
 
 Style/Documentation:
   Enabled: false
