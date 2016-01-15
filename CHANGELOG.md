@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.11.2
+
+* Update gems
+
 ## 13.11.1
 
 * Update gems
