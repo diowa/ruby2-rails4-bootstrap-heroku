@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.12.1
+
+* Rails 4.2.5.1
+* Fix gemfile
+
 ## 13.12.0
 
 * Rails 4.2.5.1
