@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.13.0.dev
+
+* Include FactoryGirl syntax methods
+* Update gems
+
 ## 13.12.2
 
 * Update gems
