@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.13.1
+
+* Fix Slim-Lint config
+
 ## 13.13.0
 
 * Include FactoryGirl syntax methods
