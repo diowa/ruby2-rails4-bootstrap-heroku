@@ -14,8 +14,9 @@ This is a starter web application based on the following technology stack:
 * [Twitter Bootstrap for Sass 3.3.6][6]
 * [Autoprefixer][7]
 * [Font Awesome 4.5.0][8]
-* [SLIM][9]
+* [Slim][9]
 * [RuboCop][10]
+* [Slim-Lint][11]
 
 [1]: http://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
@@ -27,6 +28,7 @@ This is a starter web application based on the following technology stack:
 [8]: http://fontawesome.io/
 [9]: http://slim-lang.com/
 [10]: http://github.com/bbatsov/rubocop
+[11]: https://github.com/sds/slim-lint
 
 Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 
