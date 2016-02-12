@@ -59,6 +59,8 @@ group :development do
   gem 'bullet'
   gem 'meta_request'
   gem 'quiet_assets'
+  gem 'rubocop', require: false
+  gem 'slim_lint', require: false
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'web-console'
@@ -70,7 +72,6 @@ group :test do
   gem 'database_cleaner'
   gem 'email_spec'
   gem 'rspec'
-  gem 'rubocop', require: false
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webmock', require: false
