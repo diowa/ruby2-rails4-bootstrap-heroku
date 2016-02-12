@@ -1,6 +1,6 @@
 # Changelog
 
-## 13.13.0.dev
+## 13.13.0
 
 * Include FactoryGirl syntax methods
 * Add Slim-Lint gem
