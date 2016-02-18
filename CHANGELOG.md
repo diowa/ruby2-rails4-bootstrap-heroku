@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.13.2
+
+* Update gems
+
 ## 13.13.1
 
 * Fix Slim-Lint config
