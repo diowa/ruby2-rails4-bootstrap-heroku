@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.13.3
+
+* Update coveralls badge
+* Update html5shiv
+* Update gems
+
 ## 13.13.2
 
 * Update gems
