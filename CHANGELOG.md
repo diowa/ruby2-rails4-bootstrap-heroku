@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.14.0
+
+* Rails 4.2.5.2
+* Update gems
+
 ## 13.13.3
 
 * Update coveralls badge
