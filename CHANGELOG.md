@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.14.1
+
+* Rails 4.2.5.2
+* Fix index
+
 ## 13.14.0
 
 * Rails 4.2.5.2
