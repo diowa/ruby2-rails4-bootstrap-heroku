@@ -1,9 +1,9 @@
 # Linux.gitignore
 .*
-!.coveralls.yml
 !.gitignore
 !.rspec
 !.rubocop.yml
+!.scss-lint.yml
 !.slim-lint.yml
 !.slugignore
 !.travis.yml
