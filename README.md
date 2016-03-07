@@ -10,7 +10,7 @@
 This is a starter web application based on the following technology stack:
 
 * [Ruby 2.3.0][1]
-* [Rails 4.2.5.2][2]
+* [Rails 4.2.6.rc1][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
