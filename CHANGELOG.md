@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.15.0
+
+* Add SCSS-Lint gem
+* Rails 4.2.6
+* Update gems
+
 ## 13.14.2
 
 * Update gems

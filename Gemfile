@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.0'
-gem 'rails', '4.2.5.2'
+gem 'rails', '4.2.6'
 
 # Servers
 gem 'puma'
@@ -51,6 +51,9 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'rspec-rails'
+  gem 'rubocop', require: false
+  gem 'scss_lint', require: false
+  gem 'slim_lint', require: false
 end
 
 group :development do
@@ -59,8 +62,6 @@ group :development do
   gem 'bullet'
   gem 'meta_request'
   gem 'quiet_assets'
-  gem 'rubocop', require: false
-  gem 'slim_lint', require: false
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'web-console'
