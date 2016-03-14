@@ -10,7 +10,7 @@
 This is a starter web application based on the following technology stack:
 
 * [Ruby 2.3.0][1]
-* [Rails 4.2.6.rc1][2]
+* [Rails 4.2.6][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
@@ -20,6 +20,7 @@ This is a starter web application based on the following technology stack:
 * [Slim][9]
 * [RuboCop][10]
 * [Slim-Lint][11]
+* [SCSS-Lint][12]
 
 [1]: http://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
@@ -27,13 +28,14 @@ This is a starter web application based on the following technology stack:
 [4]: http://www.postgresql.org/
 [5]: http://rspec.info/
 [6]: http://getbootstrap.com/
-[7]: http://github.com/ai/autoprefixer/
+[7]: https://github.com/postcss/autoprefixer
 [8]: http://fontawesome.io/
 [9]: http://slim-lang.com/
-[10]: http://github.com/bbatsov/rubocop
+[10]: https://github.com/bbatsov/rubocop
 [11]: https://github.com/sds/slim-lint
+[11]: https://github.com/brigade/scss-lint
 
-Starter App is deployable on [Heroku](http://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
+Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 
 ```Gemfile``` also contains a set of useful gems for performance, security, api building...
 
@@ -93,7 +95,7 @@ More information: [Change the full GC timing](https://bugs.ruby-lang.org/issues/
 
 ### Nitrous.IO
 
-Starter App supports online development on [Nitrous.IO](http://www.nitrous.io).
+Starter App supports online development on [Nitrous.IO](https://www.nitrous.io/).
 
 You need:
 * A Nitrous.IO box with **at least** 512MB of memory.
