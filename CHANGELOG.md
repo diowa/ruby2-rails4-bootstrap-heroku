@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.15.1
+
+* Fix readme
+* Update gems
+
 ## 13.15.0
 
 * Add SCSS-Lint gem
