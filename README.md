@@ -33,7 +33,7 @@ This is a starter web application based on the following technology stack:
 [9]: http://slim-lang.com/
 [10]: https://github.com/bbatsov/rubocop
 [11]: https://github.com/sds/slim-lint
-[11]: https://github.com/brigade/scss-lint
+[12]: https://github.com/brigade/scss-lint
 
 Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.15.2
+
+* Fix readme
+* Update gems
+
 ## 13.15.1
 
 * Fix readme
