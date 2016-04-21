@@ -1,6 +1,6 @@
 # Changelog
 
-## 13.17.0.dev
+## 13.17.0
 
 * Improve rake files
 * Update gems
