@@ -5,6 +5,4 @@ require File.expand_path('../config/application', __FILE__)
 
 task test: :spec
 
-task default: [:rubocop, :slim_lint, :scss_lint, :spec]
-
 Rails.application.load_tasks
