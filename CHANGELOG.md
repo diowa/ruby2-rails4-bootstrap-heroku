@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.17.0
+
+* Improve rake files
+* Update gems
+
 ## 13.16.0
 
 * Font Awesome 4.6.1
