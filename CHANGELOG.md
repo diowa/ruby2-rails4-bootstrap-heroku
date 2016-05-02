@@ -1,5 +1,10 @@
 # Changelog
 
+## 13.18.0
+
+* Ruby 2.3.1
+* Update gems
+
 ## 13.17.0
 
 * Improve rake files
