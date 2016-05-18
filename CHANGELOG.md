@@ -1,5 +1,11 @@
 # Changelog
 
+## 13.19.0
+
+* Font Awesome 4.6.3
+* Improve icon accessibility
+* Update gems
+
 ## 13.18.1
 
 * Font Awesome 4.6.2
