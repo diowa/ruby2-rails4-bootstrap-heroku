@@ -306,7 +306,7 @@ DEPENDENCIES
   bullet
   byebug
   capybara
-  coffee-rails (~> 4.2.1)
+  coffee-rails (~> 4.2)
   coveralls
   database_cleaner
   email_spec
