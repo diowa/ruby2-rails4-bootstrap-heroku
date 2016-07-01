@@ -33,7 +33,7 @@ gem 'slim-rails'
 
 # Assets
 gem 'autoprefixer-rails'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.2'
 gem 'i18n-js'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
