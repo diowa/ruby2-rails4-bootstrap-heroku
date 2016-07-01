@@ -1,5 +1,11 @@
 # Changelog
 
+## 14.0.1
+
+* Fix Turbolinks progress bar
+* Relax coffee-rails dependency
+* Update gems
+
 ## 14.0.0
 
 * Turbolinks 5
