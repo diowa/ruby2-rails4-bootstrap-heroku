@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.0.2
+
+* Fix Gemfile.lock
+
 ## 14.0.1
 
 * Fix Turbolinks progress bar
