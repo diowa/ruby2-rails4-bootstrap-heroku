@@ -1,5 +1,11 @@
 # Changelog
 
+## 15.0.0
+
+* Remove jQuery Turbolinks
+* Avoid erb in coffee templates
+* Update gems
+
 ## 14.0.2
 
 * Fix Gemfile.lock
