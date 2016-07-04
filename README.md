@@ -25,7 +25,7 @@ This is a starter web application based on the following technology stack:
 [1]: http://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
 [3]: http://puma.io/
-[4]: http://www.postgresql.org/
+[4]: https://www.postgresql.org/
 [5]: http://rspec.info/
 [6]: http://getbootstrap.com/
 [7]: https://github.com/postcss/autoprefixer
@@ -62,7 +62,7 @@ More information: [Setting Up Apps using the Platform API](https://devcenter.her
 
 ### Recommended add-ons
 
-Heroku's [Production Check](https://blog.heroku.com/archives/2013/4/26/introducing_production_check) recommends the use of the following add-ons, here in the free version:
+Heroku's [Production Check](https://blog.heroku.com/introducing_production_check) recommends the use of the following add-ons, here in the free version:
 
 ```sh
 $ heroku addons:add newrelic:stark # App monitoring
