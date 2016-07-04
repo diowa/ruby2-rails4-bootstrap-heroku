@@ -41,10 +41,10 @@ Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: http://rub
 
 ### Thread safety
 
-We assume that this application is thread safe. If your application is not thread safe or you don't know, please set the minimum and maximum number of threads usable by puma on heroku to 1:
+We assume that this application is thread safe. If your application is not thread safe or you don't know, please set the minimum and maximum number of threads usable by puma on Heroku to 1:
 
 ```sh
-$ heroku config:set MIN_THREADS=1 MAX_THREADS=1
+$ heroku config:set RAILS_MAX_THREADS=1
 ```
 
 ### Heroku Platform API

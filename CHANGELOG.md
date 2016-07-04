@@ -3,6 +3,7 @@
 ## 15.0.0
 
 * Update .gitignore
+* Update Puma configuration
 * Remove jQuery Turbolinks
 * Avoid erb in coffee templates
 * Update gems
