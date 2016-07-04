@@ -2,6 +2,7 @@
 
 ## 15.0.0
 
+* Update .gitignore
 * Remove jQuery Turbolinks
 * Avoid erb in coffee templates
 * Update gems
