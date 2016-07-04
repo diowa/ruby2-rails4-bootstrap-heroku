@@ -6,9 +6,6 @@ gem 'rails', '4.2.6'
 # Servers
 gem 'puma'
 
-# Multi-environment configuration
-# gem 'figaro'
-
 # API
 # gem 'rabl'
 

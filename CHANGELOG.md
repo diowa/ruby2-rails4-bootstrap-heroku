@@ -2,6 +2,7 @@
 
 ## 15.0.0
 
+* Update License
 * Update .gitignore
 * Update Puma configuration
 * Update RSpec configuration
