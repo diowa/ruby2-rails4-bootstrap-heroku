@@ -4,6 +4,7 @@
 
 * Update .gitignore
 * Update Puma configuration
+* Update RSpec configuration
 * Remove jQuery Turbolinks
 * Avoid erb in coffee templates
 * Update gems
