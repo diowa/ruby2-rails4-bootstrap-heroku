@@ -7,6 +7,7 @@
 * Update Puma configuration
 * Update RSpec configuration
 * Remove jQuery Turbolinks
+* Remove Puma Auto Tune
 * Avoid erb in coffee templates
 * Update gems
 

@@ -74,7 +74,6 @@ group :test do
 end
 
 group :staging, :production do
-  # gem 'puma_auto_tune'
   gem 'rack-timeout'
   gem 'rails_12factor'
 end
