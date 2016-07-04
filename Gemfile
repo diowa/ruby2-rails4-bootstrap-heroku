@@ -60,7 +60,6 @@ group :development do
   gem 'binding_of_caller'
   gem 'bullet'
   gem 'meta_request'
-  gem 'quiet_assets'
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'web-console'

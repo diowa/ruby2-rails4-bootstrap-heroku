@@ -145,8 +145,6 @@ GEM
     pry-rails (0.3.4)
       pry (>= 0.9.10)
     puma (3.4.0)
-    quiet_assets (1.1.0)
-      railties (>= 3.1, < 5.0)
     rack (1.6.4)
     rack-contrib (1.4.0)
       git-version-bump (~> 0.15)
@@ -318,7 +316,6 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   puma
-  quiet_assets
   rack-timeout
   rails (= 4.2.6)
   rails_12factor
