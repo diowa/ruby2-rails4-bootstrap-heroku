@@ -4,6 +4,7 @@
 
 * Update License
 * Update .gitignore
+* Update SCSS-Lint configuration
 * Update Puma configuration
 * Update RSpec configuration
 * Remove jQuery Turbolinks
