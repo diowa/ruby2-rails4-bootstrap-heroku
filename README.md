@@ -103,16 +103,16 @@ You need:
 * The following environment variables on your Nitrous.IO box's `.bashrc`:
   ```bash
   export STARTER_APP_DEV_DB_DATABASE=YOUR_DEV_DB_DATABASE
-  export STARTER_APP_DEV_DB_USER=YOUR_DEV_DB_USER
+  export STARTER_APP_DEV_DB_USERNAME=YOUR_DEV_DB_USER
   export STARTER_APP_DEV_DB_PASSWORD=YOUR_DEV_DB_PASSWORD
   export STARTER_APP_DEV_DB_HOST=YOUR_DEV_DB_HOST
   export STARTER_APP_DEV_DB_PORT=YOUR_DEV_DB_PORT
 
   export STARTER_APP_TEST_DB_DATABASE=YOUR_TEST_DB_DATABASE
-  export STARTER_APP_TEST_DB_USER=YOUR_TEST_DB_USER
+  export STARTER_APP_TEST_DB_USERNAME=YOUR_TEST_DB_USER
   export STARTER_APP_TEST_DB_PASSWORD=YOUR_TEST_DB_PASSWORD
   export STARTER_APP_TEST_DB_HOST=YOUR_TEST_DB_HOST
   export STARTER_APP_TEST_DB_PORT=YOUR_TEST_DB_PORT
   ```
 
-A guide for creating heroku databases and edit `.bashrc` on Nitrous.IO is available here: http://help.nitrous.io/postgres/
+A guide for creating Heroku databases and edit `.bashrc` on Nitrous.IO is available here: https://community.nitrous.io/posts/postgres-nitrous-io-3
