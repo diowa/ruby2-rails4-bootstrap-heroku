@@ -29,7 +29,7 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  username: <%= ENV['STARTER_APP_DEV_DB_USER'] || 'postgres' %>
+  username: <%= ENV['STARTER_APP_DEV_DB_USERNAME'] || 'postgres' %>
 
   # The password associated with the postgres role (username).
   password: <%= ENV['STARTER_APP_DEV_DB_PASSWORD'] %>
@@ -58,7 +58,7 @@ development:
 test:
   <<: *default
   database: <%= ENV['STARTER_APP_TEST_DB_DATABASE'] || 'starterapp_test' %>
-  username: <%= ENV['STARTER_APP_TEST_DB_USER'] || 'postgres' %>
+  username: <%= ENV['STARTER_APP_TEST_DB_USERNAME'] || 'postgres' %>
   password: <%= ENV['STARTER_APP_TEST_DB_PASSWORD'] %>
   host: <%= ENV['STARTER_APP_TEST_DB_HOST'] || 'localhost' %>
   port: <%= ENV['STARTER_APP_TEST_DB_PORT'] || '5432' %>

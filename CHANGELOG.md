@@ -7,6 +7,7 @@
 * Update SCSS-Lint configuration
 * Update Puma configuration
 * Update RSpec configuration
+* Update database configuration
 * Remove jQuery Turbolinks
 * Remove Puma Auto Tune
 * Avoid erb in coffee templates
