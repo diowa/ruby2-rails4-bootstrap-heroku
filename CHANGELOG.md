@@ -3,6 +3,7 @@
 ## 15.0.0
 
 * Fix Turbolinks tracked assets
+* Fix application layout
 * Update .gitignore
 * Update database configuration
 * Update License

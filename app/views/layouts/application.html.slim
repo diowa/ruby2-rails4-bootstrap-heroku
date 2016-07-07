@@ -1,22 +1,24 @@
 doctype html
 html lang=I18n.locale.to_s data-default-lang=I18n.default_locale
   head
-    title= yield_or_default :title, action_name.titlecase
     meta charset='utf-8'
-    meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0'
     meta content='IE=edge' http-equiv='X-UA-Compatible'
+    meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0'
+    / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+
+    title= yield_or_default :title, action_name.titlecase
     = csrf_meta_tags
     = yield :head
 
-    = stylesheet_link_tag 'application', media: 'all', data: { turbolinks_track: 'reload' }
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload'
 
-    /! Favicons
+    / Favicons
     link href=asset_path('apple-touch-icon-precomposed.png') rel='apple-touch-icon-precomposed' sizes='144x144'
 
-    /! Turbolinks require javascript tags inside the head
-    = javascript_include_tag 'application', data: { turbolinks_track: 'reload' }
+    / Turbolinks require javascript tags inside the head
+    = javascript_include_tag 'application', 'data-turbolinks-track' => 'reload'
 
-    /! HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
     /[if lt IE 9]
       = javascript_include_tag 'https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js', 'respond.js'
 
