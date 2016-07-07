@@ -8,13 +8,13 @@ html lang=I18n.locale.to_s data-default-lang=I18n.default_locale
     = csrf_meta_tags
     = yield :head
 
-    = stylesheet_link_tag 'application', media: 'all', data: { turbolinks_track: true }
+    = stylesheet_link_tag 'application', media: 'all', data: { turbolinks_track: 'reload' }
 
     /! Favicons
     link href=asset_path('apple-touch-icon-precomposed.png') rel='apple-touch-icon-precomposed' sizes='144x144'
 
     /! Turbolinks require javascript tags inside the head
-    = javascript_include_tag 'application', data: { turbolinks_track: true }
+    = javascript_include_tag 'application', data: { turbolinks_track: 'reload' }
 
     /! HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
     /[if lt IE 9]

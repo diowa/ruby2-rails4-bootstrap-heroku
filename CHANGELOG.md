@@ -2,14 +2,15 @@
 
 ## 15.0.0
 
-* Update License
+* Fix Turbolinks tracked assets
 * Update .gitignore
-* Update SCSS-Lint configuration
+* Update database configuration
+* Update License
 * Update Puma configuration
 * Update RSpec configuration
-* Update database configuration
-* Remove jQuery Turbolinks
-* Remove Puma Auto Tune
+* Update SCSS-Lint configuration
+* Remove jQuery Turbolinks gem
+* Remove Puma Auto Tune gem
 * Avoid erb in coffee templates
 * Update gems
 
