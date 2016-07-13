@@ -12,7 +12,6 @@
 #
 #= require jquery
 #= require jquery_ujs
-#= require jquery.turbolinks
 #= require turbolinks
 
 # BOOTSTRAP
@@ -25,5 +24,5 @@
 # ALL THE REST
 #= require_tree .
 
-I18n.defaultLocale = '<%= I18n.default_locale.to_s %>'
-I18n.locale = document.getElementsByTagName('html')[0].getAttribute('lang')
+I18n.defaultLocale = document.documentElement.getAttribute('data-default-lang')
+I18n.locale = document.documentElement.lang

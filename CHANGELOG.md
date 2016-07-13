@@ -1,5 +1,21 @@
 # Changelog
 
+## 15.0.0
+
+* Rails 4.2.7
+* Fix Turbolinks tracked assets
+* Fix application layout
+* Update .gitignore
+* Update database configuration
+* Update License
+* Update Puma configuration
+* Update RSpec configuration
+* Update SCSS-Lint configuration
+* Remove jQuery Turbolinks gem
+* Remove Puma Auto Tune gem
+* Avoid erb in coffee templates
+* Update gems
+
 ## 14.0.2
 
 * Fix Gemfile.lock

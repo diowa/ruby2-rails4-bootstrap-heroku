@@ -1,13 +1,10 @@
 source 'https://rubygems.org'
 
 ruby '2.3.1'
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.7'
 
 # Servers
 gem 'puma'
-
-# Multi-environment configuration
-# gem 'figaro'
 
 # API
 # gem 'rabl'
@@ -36,7 +33,6 @@ gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.2'
 gem 'i18n-js'
 gem 'jquery-rails'
-gem 'jquery-turbolinks'
 gem 'sass-rails', '~> 5.0'
 gem 'slim_assets'
 gem 'turbolinks'
@@ -61,7 +57,6 @@ group :development do
   gem 'binding_of_caller'
   gem 'bullet'
   gem 'meta_request'
-  gem 'quiet_assets'
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'web-console'
@@ -79,7 +74,6 @@ group :test do
 end
 
 group :staging, :production do
-  # gem 'puma_auto_tune'
   gem 'rack-timeout'
   gem 'rails_12factor'
 end
