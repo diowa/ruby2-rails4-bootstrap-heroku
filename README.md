@@ -10,7 +10,7 @@
 This is a starter web application based on the following technology stack:
 
 * [Ruby 2.3.1][1]
-* [Rails 4.2.6][2]
+* [Rails 4.2.7][2]
 * [Puma][3]
 * [MongoDB][4]
 * [RSpec][5]
@@ -25,7 +25,7 @@ This is a starter web application based on the following technology stack:
 [1]: http://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
 [3]: http://puma.io/
-[4]: http://www.mongodb.org/
+[4]: https://www.mongodb.com/
 [5]: http://rspec.info/
 [6]: http://getbootstrap.com/
 [7]: https://github.com/postcss/autoprefixer
@@ -41,10 +41,10 @@ Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: http://rub
 
 ### Thread safety
 
-We assume that this application is thread safe. If your application is not thread safe or you don't know, please set the minimum and maximum number of threads usable by puma on heroku to 1:
+We assume that this application is thread safe. If your application is not thread safe or you don't know, please set the minimum and maximum number of threads usable by puma on Heroku to 1:
 
 ```sh
-$ heroku config:set MIN_THREADS=1 MAX_THREADS=1
+$ heroku config:set RAILS_MAX_THREADS=1
 ```
 
 ### Heroku Platform API
@@ -70,7 +70,7 @@ $ heroku addons:add mongolab:sandbox
 
 ### Recommended add-ons
 
-Heroku's [Production Check](https://blog.heroku.com/archives/2013/4/26/introducing_production_check) recommends the use of the following add-ons, here in the free version:
+Heroku's [Production Check](https://blog.heroku.com/introducing_production_check) recommends the use of the following add-ons, here in the free version:
 
 ```sh
 $ heroku addons:add newrelic:stark # App monitoring

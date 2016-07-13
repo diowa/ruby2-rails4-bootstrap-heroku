@@ -2,11 +2,18 @@ AllCops:
   Exclude:
     - 'bin/*'
     - 'db/**/*'
-    - 'spec/**/*'
     - 'vendor/bundle/**/*'
 
 Metrics/LineLength:
   Enabled: false
+
+Metrics/MethodLength:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/ModuleLength:
+  Exclude:
+    - 'spec/**/*'
 
 Rails:
   Enabled: true
