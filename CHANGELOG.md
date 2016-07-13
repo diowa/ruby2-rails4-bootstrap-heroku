@@ -2,6 +2,7 @@
 
 ## 15.0.0
 
+* Rails 4.2.7
 * Fix Turbolinks tracked assets
 * Fix application layout
 * Update .gitignore
