@@ -86,7 +86,7 @@ linters:
     enabled: true
 
   ImportantRule:
-    enabled: false # NOTE: different from bootstrap's defaults
+    enabled: true
 
   ImportPath:
     enabled: true
@@ -435,7 +435,7 @@ linters:
     enabled: true
 
   QualifyingElement:
-    enabled: false # NOTE: different from bootstrap's defaults
+    enabled: true
     allow_element_with_attribute: false
     allow_element_with_class: false
     allow_element_with_id: false
@@ -450,7 +450,7 @@ linters:
 
   Shorthand:
     enabled: true
-    allowed_shorthands: [1, 2, 3]
+    allowed_shorthands: [1, 2, 3, 4]
 
   SingleLinePerProperty:
     enabled: false

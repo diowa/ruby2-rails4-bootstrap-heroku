@@ -1,8 +1,8 @@
-require 'spec_helper'
+require 'rails_helper'
 
-describe 'Welcome' do
+RSpec.describe 'Welcome' do
   context 'Index' do
-    it "has 'Hello world' in title" do
+    it "has 'Hello World' in title" do
       visit root_path
 
       expect(page).to have_title I18n.t('hello')
