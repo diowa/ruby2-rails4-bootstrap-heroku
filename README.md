@@ -14,7 +14,7 @@ This is a starter web application based on the following technology stack:
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
-* [Twitter Bootstrap for Sass 3.3.6][6]
+* [Twitter Bootstrap for Sass 3.3.7][6]
 * [Autoprefixer][7]
 * [Font Awesome 4.6.3][8]
 * [Slim][9]

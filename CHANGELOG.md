@@ -1,5 +1,10 @@
 # Changelog
 
+## 15.1.0
+
+* Bootstrap for Sass 3.3.7
+* Update gems
+
 ## 15.0.0
 
 * Rails 4.2.7
