@@ -1,5 +1,9 @@
 # Changelog
 
+## 15.1.1
+
+* Update gems
+
 ## 15.1.0
 
 * Bootstrap for Sass 3.3.7
