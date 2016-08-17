@@ -1,5 +1,9 @@
 # Changelog
 
+## 15.2.1
+
+* Update gems
+
 ## 15.2.0
 
 * Rails 4.2.7.1
