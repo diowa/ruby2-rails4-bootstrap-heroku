@@ -1,5 +1,10 @@
 # Changelog
 
+## 15.3.0
+
+* Font Awesome 4.7.0
+* Update gems
+
 ## 15.2.2
 
 * Update gems
