@@ -16,7 +16,7 @@ This is a starter web application based on the following technology stack:
 * [RSpec][5]
 * [Twitter Bootstrap for Sass 3.3.7][6]
 * [Autoprefixer][7]
-* [Font Awesome 4.6.3][8]
+* [Font Awesome 4.7.0][8]
 * [Slim][9]
 * [RuboCop][10]
 * [Slim-Lint][11]
