@@ -1,5 +1,10 @@
 # Changelog
 
+## 16.0.0
+
+* Remove Nitrous.IO compatibility
+* Update gems
+
 ## 15.3.0
 
 * Font Awesome 4.7.0

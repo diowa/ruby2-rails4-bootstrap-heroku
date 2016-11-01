@@ -99,9 +99,3 @@ $ heroku config:set RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR=1.3
 ```
 
 More information: [Change the full GC timing](https://bugs.ruby-lang.org/issues/9607)
-
-### Nitrous.IO
-
-Starter App supports online development on [Nitrous.IO](https://www.nitrous.io/).
-
-**TODO**
