@@ -23,25 +23,25 @@ default: &default
 
 development:
   <<: *default
-  database: <%= ENV['STARTER_APP_DEV_DB_DATABASE'] || 'starterapp_development' %>
+  database: starterapp_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  username: <%= ENV['STARTER_APP_DEV_DB_USERNAME'] || 'postgres' %>
+  username: postgres
 
   # The password associated with the postgres role (username).
-  password: <%= ENV['STARTER_APP_DEV_DB_PASSWORD'] %>
+  #password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
-  host: <%= ENV['STARTER_APP_DEV_DB_HOST'] || 'localhost' %>
+  #host: localhost
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
-  port: <%= ENV['STARTER_APP_DEV_DB_PORT'] || '5432' %>
+  #port: 5432
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -57,11 +57,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: <%= ENV['STARTER_APP_TEST_DB_DATABASE'] || 'starterapp_test' %>
-  username: <%= ENV['STARTER_APP_TEST_DB_USERNAME'] || 'postgres' %>
-  password: <%= ENV['STARTER_APP_TEST_DB_PASSWORD'] %>
-  host: <%= ENV['STARTER_APP_TEST_DB_HOST'] || 'localhost' %>
-  port: <%= ENV['STARTER_APP_TEST_DB_PORT'] || '5432' %>
+  database: starterapp_test
+  username: postgres
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -86,4 +83,4 @@ production:
   <<: *default
   database: starterapp_production
   username: postgres
-  password:
+  password: <%= ENV['STARTER_APP_DATABASE_PASSWORD'] %>
