@@ -92,27 +92,3 @@ $ heroku config:set RUBY_GC_HEAP_OLDOBJECT_LIMIT_FACTOR=1.3
 ```
 
 More information: [Change the full GC timing](https://bugs.ruby-lang.org/issues/9607)
-
-### Nitrous.IO
-
-Starter App supports online development on [Nitrous.IO](https://www.nitrous.io/).
-
-You need:
-* A Nitrous.IO box with **at least** 512MB of memory.
-* Two "Dev Plan" heroku databases (one for development and one for test)
-* The following environment variables on your Nitrous.IO box's `.bashrc`:
-  ```bash
-  export STARTER_APP_DEV_DB_DATABASE=YOUR_DEV_DB_DATABASE
-  export STARTER_APP_DEV_DB_USERNAME=YOUR_DEV_DB_USER
-  export STARTER_APP_DEV_DB_PASSWORD=YOUR_DEV_DB_PASSWORD
-  export STARTER_APP_DEV_DB_HOST=YOUR_DEV_DB_HOST
-  export STARTER_APP_DEV_DB_PORT=YOUR_DEV_DB_PORT
-
-  export STARTER_APP_TEST_DB_DATABASE=YOUR_TEST_DB_DATABASE
-  export STARTER_APP_TEST_DB_USERNAME=YOUR_TEST_DB_USER
-  export STARTER_APP_TEST_DB_PASSWORD=YOUR_TEST_DB_PASSWORD
-  export STARTER_APP_TEST_DB_HOST=YOUR_TEST_DB_HOST
-  export STARTER_APP_TEST_DB_PORT=YOUR_TEST_DB_PORT
-  ```
-
-A guide for creating Heroku databases and edit `.bashrc` on Nitrous.IO is available here: https://community.nitrous.io/posts/postgres-nitrous-io-3
