@@ -1,5 +1,10 @@
 # Changelog
 
+## 16.1.0
+
+* Ruby 2.3.2
+* Update gems
+
 ## 16.0.0
 
 * Remove Nitrous.IO compatibility
