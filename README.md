@@ -22,12 +22,12 @@ This is a starter web application based on the following technology stack:
 * [Slim-Lint][11]
 * [SCSS-Lint][12]
 
-[1]: http://www.ruby-lang.org/en/
+[1]: https://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
 [3]: http://puma.io/
 [4]: https://www.postgresql.org/
 [5]: http://rspec.info/
-[6]: http://getbootstrap.com/
+[6]: https://getbootstrap.com/
 [7]: https://github.com/postcss/autoprefixer
 [8]: http://fontawesome.io/
 [9]: http://slim-lang.com/
@@ -35,7 +35,7 @@ This is a starter web application based on the following technology stack:
 [11]: https://github.com/sds/slim-lint
 [12]: https://github.com/brigade/scss-lint
 
-Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
+Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: https://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 
 ```Gemfile``` also contains a set of useful gems for performance, security, api building...
 
