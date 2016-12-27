@@ -1,5 +1,10 @@
 # Changelog
 
+## 17.0.0
+
+* Ruby 2.4.0
+* Update gems
+
 ## 16.1.0
 
 * Ruby 2.3.2
