@@ -65,10 +65,9 @@ More information: [Setting Up Apps using the Platform API](https://devcenter.her
 Heroku's [Production Check](https://blog.heroku.com/introducing_production_check) recommends the use of the following add-ons, here in the free version:
 
 ```sh
-$ heroku addons:add newrelic:stark # App monitoring
+$ heroku addons:create newrelic:wayne # App monitoring
 $ heroku config:set NEW_RELIC_APP_NAME="Rails Starter App" # Set newrelic app name
-$ heroku addons:add papertrail # Log monitoring
-$ heroku addons:add pgbackups:auto-month # Postgres backups
+$ heroku addons:create papertrail:choklad # Log monitoring
 ```
 
 ### Secrets.yml
