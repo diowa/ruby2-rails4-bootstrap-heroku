@@ -3,6 +3,7 @@
 ## 17.0.0
 
 * Ruby 2.3.3
+* Change brand primary color to GREENERY 15-0343 TCX (Pantone of the Year 2017)
 * Improve linters rake tasks
 * Update gems
 
