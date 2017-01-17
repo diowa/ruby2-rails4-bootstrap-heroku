@@ -2,7 +2,7 @@
 
 ## 17.0.0
 
-* Ruby 2.4.0
+* Ruby 2.3.3
 * Improve linters rake tasks
 * Update gems
 
