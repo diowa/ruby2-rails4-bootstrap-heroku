@@ -61,8 +61,10 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
-    childprocess (0.5.9)
-      ffi (~> 1.0, >= 1.0.11)
+    capybara-screenshot (1.0.14)
+      capybara (>= 1.0, < 3)
+      launchy
+    cliver (0.3.2)
     coderay (1.1.1)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
@@ -97,7 +99,6 @@ GEM
       railties (>= 3.0.0)
     faker (1.7.2)
       i18n (~> 0.5)
-    ffi (1.9.17)
     git-version-bump (0.15.1)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
@@ -133,6 +134,10 @@ GEM
     parser (2.3.3.1)
       ast (~> 2.2)
     pg (0.19.0)
+    poltergeist (1.12.0)
+      capybara (~> 2.1)
+      cliver (~> 0.3.1)
+      websocket-driver (>= 0.2.0)
     powerpack (0.1.1)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -212,7 +217,6 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.8.1)
-    rubyzip (1.2.0)
     safe_yaml (1.0.4)
     sass (3.4.23)
     sass-rails (5.0.6)
@@ -224,10 +228,6 @@ GEM
     scss_lint (0.52.0)
       rake (>= 0.9, < 13)
       sass (~> 3.4.20)
-    selenium-webdriver (3.0.5)
-      childprocess (~> 0.5)
-      rubyzip (~> 1.0)
-      websocket (~> 1.0)
     simplecov (0.12.0)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -289,7 +289,9 @@ GEM
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
-    websocket (1.2.3)
+    websocket-driver (0.6.4)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
@@ -303,6 +305,7 @@ DEPENDENCIES
   bullet
   byebug
   capybara
+  capybara-screenshot
   coffee-rails (~> 4.2)
   coveralls
   database_cleaner
@@ -314,6 +317,7 @@ DEPENDENCIES
   meta_request
   newrelic_rpm
   pg
+  poltergeist
   pry
   pry-byebug
   pry-rails
@@ -327,7 +331,6 @@ DEPENDENCIES
   rubocop
   sass-rails (~> 5.0)
   scss_lint
-  selenium-webdriver
   simplecov
   slim-rails
   slim_assets
@@ -344,4 +347,4 @@ RUBY VERSION
    ruby 2.3.2p217
 
 BUNDLED WITH
-   1.13.6
+   1.13.7

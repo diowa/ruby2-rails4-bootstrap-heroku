@@ -65,11 +65,12 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'capybara-screenshot'
   gem 'coveralls', require: false
   gem 'database_cleaner'
   gem 'email_spec'
+  gem 'poltergeist'
   gem 'rspec'
-  gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webmock', require: false
 end
