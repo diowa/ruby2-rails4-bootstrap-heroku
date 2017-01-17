@@ -188,7 +188,6 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (2.2.1)
     rake (12.0.0)
-    rb-readline (0.5.3)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -325,7 +324,6 @@ DEPENDENCIES
   rack-timeout
   rails (= 4.2.7.1)
   rails_12factor
-  rb-readline
   rspec
   rspec-rails
   rubocop

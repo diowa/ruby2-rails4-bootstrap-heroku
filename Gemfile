@@ -46,7 +46,6 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'rb-readline'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'scss_lint', require: false
