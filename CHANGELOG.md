@@ -1,5 +1,13 @@
 # Changelog
 
+## 17.0.0
+
+* Rails 4.2.8
+* Ruby 2.3.3
+* Change brand primary color to GREENERY 15-0343 TCX (Pantone of the Year 2017)
+* Improve linters rake tasks
+* Update gems
+
 ## 16.1.0
 
 * Ruby 2.3.2

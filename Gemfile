@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.3.2'
-gem 'rails', '4.2.7.1'
+ruby '2.3.3'
+gem 'rails', '4.2.8'
 
 # Servers
 gem 'puma'
@@ -46,7 +46,6 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'rb-readline'
   gem 'rspec-rails'
   gem 'rubocop', require: false
   gem 'scss_lint', require: false
@@ -65,11 +64,12 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'capybara-screenshot'
   gem 'coveralls', require: false
   gem 'database_cleaner'
   gem 'email_spec'
+  gem 'poltergeist'
   gem 'rspec'
-  gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webmock', require: false
 end
