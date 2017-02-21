@@ -9,33 +9,36 @@
 
 This is a starter web application based on the following technology stack:
 
-* [Ruby 2.3.1][1]
-* [Rails 4.2.7.1][2]
+* [Ruby 2.3.3][1]
+* [Rails 4.2.8][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
-* [Twitter Bootstrap for Sass 3.3.7][6]
-* [Autoprefixer][7]
-* [Font Awesome 4.7.0][8]
-* [Slim][9]
-* [RuboCop][10]
-* [Slim-Lint][11]
-* [SCSS-Lint][12]
+* [PhantomJS][6] + [Poltergeist][7]
+* [Twitter Bootstrap for Sass 3.3.7][8]
+* [Autoprefixer][9]
+* [Font Awesome 4.7.0][10]
+* [Slim][11]
+* [RuboCop][12]
+* [Slim-Lint][13]
+* [SCSS-Lint][14]
 
-[1]: http://www.ruby-lang.org/en/
+[1]: https://www.ruby-lang.org/en/
 [2]: http://rubyonrails.org/
 [3]: http://puma.io/
 [4]: https://www.postgresql.org/
 [5]: http://rspec.info/
-[6]: http://getbootstrap.com/
-[7]: https://github.com/postcss/autoprefixer
-[8]: http://fontawesome.io/
-[9]: http://slim-lang.com/
-[10]: https://github.com/bbatsov/rubocop
-[11]: https://github.com/sds/slim-lint
-[12]: https://github.com/brigade/scss-lint
+[6]: https://github.com/ariya/phantomjs/
+[7]: https://github.com/teampoltergeist/poltergeist
+[8]: https://getbootstrap.com/
+[9]: https://github.com/postcss/autoprefixer
+[10]: http://fontawesome.io/
+[11]: http://slim-lang.com/
+[12]: https://github.com/bbatsov/rubocop
+[13]: https://github.com/sds/slim-lint
+[14]: https://github.com/brigade/scss-lint
 
-Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: http://ruby2-rails4-bootstrap-heroku.herokuapp.com/
+Starter App is deployable on [Heroku](https://www.heroku.com/). Demo: https://ruby2-rails4-bootstrap-heroku.herokuapp.com/
 
 ```Gemfile``` also contains a set of useful gems for performance, security, api building...
 
@@ -65,10 +68,9 @@ More information: [Setting Up Apps using the Platform API](https://devcenter.her
 Heroku's [Production Check](https://blog.heroku.com/introducing_production_check) recommends the use of the following add-ons, here in the free version:
 
 ```sh
-$ heroku addons:add newrelic:stark # App monitoring
+$ heroku addons:create newrelic:wayne # App monitoring
 $ heroku config:set NEW_RELIC_APP_NAME="Rails Starter App" # Set newrelic app name
-$ heroku addons:add papertrail # Log monitoring
-$ heroku addons:add pgbackups:auto-month # Postgres backups
+$ heroku addons:create papertrail:choklad # Log monitoring
 ```
 
 ### Secrets.yml
