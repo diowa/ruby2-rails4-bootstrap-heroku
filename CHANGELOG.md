@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.0.1
+
+* Update gems
+
 ## 17.0.0
 
 * Rails 4.2.8
