@@ -1,11 +1,11 @@
 nav.navbar.navbar-default#main-navbar
   .container
     .navbar-header
-      button.navbar-toggle.collapsed type='button' data-toggle='collapse' data-target='.navbar-collapse'
+      button.navbar-toggle.collapsed type='button' data-toggle='collapse' data-target='#main-navbar-collapse'
         span.sr-only= t('.toggle_navigation')
         span.icon-bar
         span.icon-bar
         span.icon-bar
       = link_to Rails.application.class.parent_name, root_path, class: 'navbar-brand'
-    .collapse.navbar-collapse
+    #main-navbar-collapse.collapse.navbar-collapse
       ul.nav.navbar-nav

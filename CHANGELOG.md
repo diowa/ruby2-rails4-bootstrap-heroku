@@ -1,5 +1,11 @@
 # Changelog
 
+## 18.0.0
+
+* Ruby 2.4.1
+* Fix navbar template
+* Update gems
+
 ## 17.0.1
 
 * Update gems
