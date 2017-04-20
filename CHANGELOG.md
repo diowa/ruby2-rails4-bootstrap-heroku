@@ -1,5 +1,10 @@
 # Changelog
 
+## 18.1.0
+
+* Update turbolinks markup
+* Update gems
+
 ## 18.0.0
 
 * Ruby 2.4.1

@@ -2,6 +2,6 @@
 @import "twbs/bootstrap/mixins";
 
 .turbolinks-progress-bar {
-  z-index: $zindex-navbar-fixed + 1;
+  height: 2px;
   background-color: $progress-bar-bg;
 }
