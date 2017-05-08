@@ -1,5 +1,9 @@
 # Changelog
 
+## 18.1.1
+
+* Update gems
+
 ## 18.1.0
 
 * Update turbolinks markup
