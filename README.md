@@ -1,6 +1,6 @@
 # Rails Starter App
 [![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.svg?branch=master)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku)
-[![Dependency Status](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku.svg)](https://gemnasium.com/diowa/ruby2-rails4-bootstrap-heroku)
+[![Dependency Status](https://gemnasium.com/badges/github.com/diowa/ruby2-rails4-bootstrap-heroku.svg)](https://gemnasium.com/github.com/diowa/ruby2-rails4-bootstrap-heroku)
 [![Code Climate](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku/badges/gpa.svg)](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku)
 [![Coverage Status](https://coveralls.io/repos/github/diowa/ruby2-rails4-bootstrap-heroku/badge.svg?branch=master)](https://coveralls.io/github/diowa/ruby2-rails4-bootstrap-heroku?branch=master)
 
