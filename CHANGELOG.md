@@ -1,5 +1,11 @@
 # Changelog
 
+## 18.1.3
+
+* Strengthen up dependencies
+* Fix app.json
+* Update gems
+
 ## 18.1.2
 
 * Use RackTimeout defaults
