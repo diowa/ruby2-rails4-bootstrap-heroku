@@ -1,5 +1,9 @@
 # Changelog
 
+## 18.1.4
+
+* Fix test coverage
+
 ## 18.1.3
 
 * Strengthen up dependencies
