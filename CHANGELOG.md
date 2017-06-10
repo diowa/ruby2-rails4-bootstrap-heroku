@@ -6,6 +6,7 @@
 * Compress HTML, JSON and other Rails-generated responses
 * Add manifest.json
 * Use Rails' red as primary color
+* Update icons
 * Improve application layout
 
 ## 18.1.4
