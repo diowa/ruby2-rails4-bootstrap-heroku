@@ -1,4 +1,4 @@
-# Rails Starter App
+# Rails 4 Starter App
 [![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.svg?branch=master)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku)
 [![Dependency Status](https://gemnasium.com/badges/github.com/diowa/ruby2-rails4-bootstrap-heroku.svg)](https://gemnasium.com/github.com/diowa/ruby2-rails4-bootstrap-heroku)
 [![Code Climate](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku/badges/gpa.svg)](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku)
@@ -69,7 +69,7 @@ Heroku's [Production Check](https://blog.heroku.com/introducing_production_check
 
 ```sh
 $ heroku addons:create newrelic:wayne # App monitoring
-$ heroku config:set NEW_RELIC_APP_NAME="Rails Starter App" # Set newrelic app name
+$ heroku config:set NEW_RELIC_APP_NAME="Rails 4 Starter App" # Set newrelic app name
 $ heroku addons:create papertrail:choklad # Log monitoring
 ```
 

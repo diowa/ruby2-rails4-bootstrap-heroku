@@ -1,5 +1,5 @@
 {
-  "name": "Rails Starter App",
+  "name": "Rails 4 Starter App",
   "description": "A starter application based on Ruby 2.4, Rails 4.2 and Bootstrap for Sass 3",
   "keywords": [
     "Ruby 2.4",
@@ -16,7 +16,7 @@
   "env": {
     "NEW_RELIC_APP_NAME": {
       "description": "Sets the name of your application as it will appear on the New Relic dashboard.",
-      "value": "Rails Starter App"
+      "value": "Rails 4 Starter App"
     },
     "RAILS_ENV": "production",
     "RAILS_SERVE_STATIC_FILES": "enabled",
