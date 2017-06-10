@@ -1,7 +1,7 @@
-- title t('hello')
+- title t('app_name')
 h1
-  | Rails 4 Starter App
-  small< 18.1.4
+  = yield :title
+  small< 19.0.0
 ul.list-inline.lead
   li
     | Ruby
