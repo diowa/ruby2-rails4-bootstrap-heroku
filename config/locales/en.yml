@@ -20,7 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello World"
+  app_name: Rails 4 Starter App
   shared:
     navbar:
       toggle_navigation: Toggle Navigation
