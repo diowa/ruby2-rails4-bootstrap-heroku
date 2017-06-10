@@ -3,6 +3,7 @@
 ## 19.0.0
 
 * Force SSL in production environment
+* Compress HTML, JSON and other Rails-generated responses
 * Add manifest.json
 * Use Rails' red as primary color
 * Improve application layout
