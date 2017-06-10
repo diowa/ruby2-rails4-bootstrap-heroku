@@ -1,5 +1,12 @@
 # Changelog
 
+## 19.0.0
+
+* Force SSL in production environment
+* Add manifest.json
+* Use Rails' red as primary color
+* Improve application layout
+
 ## 18.1.4
 
 * Fix test coverage
