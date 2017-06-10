@@ -3,7 +3,7 @@ html lang=I18n.locale.to_s data-default-lang=I18n.default_locale
   head
     meta charset='utf-8'
     meta content='IE=edge' http-equiv='X-UA-Compatible'
-    meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0'
+    meta name='viewport' content='width=device-width, initial-scale=1'
     / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
 
     title= yield_or_default :title, action_name.titlecase
@@ -12,8 +12,12 @@ html lang=I18n.locale.to_s data-default-lang=I18n.default_locale
 
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
 
-    / Favicons
-    link href=asset_path('apple-touch-icon-precomposed.png') rel='apple-touch-icon-precomposed' sizes='144x144'
+    / Web App manifest
+    link href='/manifest.json' rel='manifest'
+    meta content=t('app_name') name='application-name'
+    meta content='#e00000' name='theme-color'
+
+    link href=asset_path('apple-touch-icon.png') rel='apple-touch-icon' sizes='180x180'
 
     / Turbolinks require javascript tags inside the head
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
@@ -25,6 +29,6 @@ html lang=I18n.locale.to_s data-default-lang=I18n.default_locale
   body
     == render 'shared/navbar'
 
-    #main-container.container= yield
+    .main-container.container= yield
 
     == render 'shared/footer'
