@@ -1,5 +1,10 @@
 # Changelog
 
+## 19.1.0
+
+* Rails 4.2.9
+* Update gems
+
 ## 19.0.0
 
 * Force SSL in production environment
