@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 ruby '2.4.1'
-gem 'rails', '4.2.8'
+gem 'rails', '4.2.9'
 
 # Servers
 gem 'puma', '~> 3.9'
@@ -12,7 +12,7 @@ gem 'puma', '~> 3.9'
 # gem 'rabl'
 
 # ORM
-gem 'pg', '~> 0.20.0'
+gem 'pg', '~> 0.20.0' # Keep using '0.20.0' to avoid deprecation messages
 
 # Pagination
 # gem 'kaminari'
@@ -50,7 +50,7 @@ group :development, :test do
   gem 'pry-rails', '~> 0.3.6'
   gem 'rspec-rails', '~> 3.6'
   gem 'rubocop', '~> 0.49.1', require: false
-  gem 'scss_lint', '~> 0.53.0', require: false
+  gem 'scss_lint', '~> 0.54.0', require: false
   gem 'slim_lint', '~> 0.13.0', require: false
 end
 
