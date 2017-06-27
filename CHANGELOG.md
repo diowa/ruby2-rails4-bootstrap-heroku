@@ -1,6 +1,6 @@
 # Changelog
 
-## 19.1.0.dev
+## 19.1.0
 
 * Rails 4.2.9
 * Update gems
