@@ -44,7 +44,7 @@ gem 'uglifier', '~> 3.2'
 group :development, :test do
   gem 'byebug', '~> 9.0', platforms: %i[mri mingw x64_mingw]
   gem 'factory_girl_rails', '~> 4.8'
-  gem 'faker', '~> 1.7'
+  gem 'faker', '~> 1.8'
   gem 'pry', '~> 0.10.4'
   gem 'pry-byebug', '~> 3.4'
   gem 'pry-rails', '~> 0.3.6'
