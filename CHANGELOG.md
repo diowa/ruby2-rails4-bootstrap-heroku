@@ -1,5 +1,9 @@
 # Changelog
 
+## 19.1.1
+
+* Update gems
+
 ## 19.1.0
 
 * Rails 4.2.9
