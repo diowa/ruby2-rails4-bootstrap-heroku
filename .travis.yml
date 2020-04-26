@@ -1,21 +1,23 @@
+os: linux
+dist: bionic
 language: ruby
-sudo: false
+
+services:
+  - postgresql
+
 rvm:
-  - 2.4.1
+  - 2.4.10
+
+addons:
+  chrome: stable
 
 cache:
-  directories:
-    - "travis_phantomjs"
+  bundler: true
 
 before_install:
-  - export PHANTOMJS_VERSION=2.1.1
-  - phantomjs --version
-  - export PATH=$PWD/travis_phantomjs/phantomjs-$PHANTOMJS_VERSION-linux-x86_64/bin:$PATH
-  - phantomjs --version
-  - if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then rm -rf $PWD/travis_phantomjs; mkdir -p $PWD/travis_phantomjs; fi
-  - if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then wget https://github.com/Medium/phantomjs/releases/download/v$PHANTOMJS_VERSION/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -O $PWD/travis_phantomjs/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2; fi
-  - if [ $(phantomjs --version) != $PHANTOMJS_VERSION ]; then tar -xvf $PWD/travis_phantomjs/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -C $PWD/travis_phantomjs; fi
-  - phantomjs --version
+  - LATEST_CHROMEDRIVER_VERSION=`curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE"`
+  - curl "https://chromedriver.storage.googleapis.com/${LATEST_CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" -O
+  - unzip chromedriver_linux64.zip -d ~/bin
 
 before_script:
-  - psql -c 'create database starterapp_test;' -U postgres
+  - psql -c 'create database "starterapp_test";' -U postgres

@@ -1,13 +1,23 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
 AllCops:
   DisplayCopNames: true
   TargetRailsVersion: 4.2
   TargetRubyVersion: 2.4
+  NewCops: enable
   Exclude:
     - 'bin/*'
     - 'db/**/*'
-    - 'vendor/bundle/**/*'
+    - 'log/**/*'
+    - 'node_modules/**/*'
+    - 'public/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
@@ -18,8 +28,14 @@ Metrics/ModuleLength:
   Exclude:
     - 'spec/**/*'
 
-Rails:
-  Enabled: true
+RSpec/DescribeClass:
+  Exclude:
+    - 'spec/features/**/*'
+    - 'spec/requests/**/*'
+    - 'spec/system/**/*'
 
 Style/Documentation:
+  Enabled: false
+
+Style/IfUnlessModifier:
   Enabled: false

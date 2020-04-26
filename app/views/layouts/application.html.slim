@@ -6,7 +6,7 @@ html lang=I18n.locale.to_s data-default-lang=I18n.default_locale
     meta name='viewport' content='width=device-width, initial-scale=1'
     / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
 
-    title= yield_or_default :title, action_name.titlecase
+    title = yield_or_default :title, action_name.titlecase
     = csrf_meta_tags
     = yield :head
 
@@ -29,6 +29,6 @@ html lang=I18n.locale.to_s data-default-lang=I18n.default_locale
   body
     == render 'shared/navbar'
 
-    .main-container.container= yield
+    .main-container.container = yield
 
     == render 'shared/footer'

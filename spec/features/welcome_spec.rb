@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Welcome' do
-  context 'Index' do
+  describe 'Index' do
     it 'has application name in title' do
       visit root_path
 
