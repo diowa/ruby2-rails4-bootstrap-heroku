@@ -66,7 +66,7 @@ end
 group :test do
   gem 'capybara', '~> 3.32'
   gem 'coveralls_reborn', '~> 0.15.0', require: false
-  gem 'database_cleaner', '~> 1.6'
+  gem 'database_cleaner', '~> 1.8'
   gem 'email_spec', '~> 2.2'
   gem 'selenium-webdriver', '~> 3.142'
   gem 'simplecov', '~> 0.18.5', require: false
