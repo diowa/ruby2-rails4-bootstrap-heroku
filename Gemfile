@@ -12,7 +12,7 @@ gem 'puma', '~> 4.3'
 # gem 'rabl'
 
 # ORM
-gem 'pg', '~> 0.21.0'
+gem 'pg', '~> 1.2.3'
 
 # Pagination
 # gem 'kaminari'
