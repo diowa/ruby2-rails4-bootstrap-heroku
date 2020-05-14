@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 ruby '2.4.10'
-gem 'rails', '4.2.11.1'
+gem 'rails', '5.2.4.2'
 
 # Servers
 gem 'puma', '~> 4.3'
