@@ -9,11 +9,11 @@
 This is a starter web application based on the following technology stack:
 
 * [Ruby 2.4.10][1]
-* [Rails 4.2.11][2]
+* [Rails 4.2.11.3][2]
 * [Puma][3]
 * [PostgreSQL][4]
 * [RSpec][5]
-* [Twitter Bootstrap for Sass 3.3.7][8]
+* [Twitter Bootstrap for Sass 3.4.1][8]
 * [Autoprefixer][9]
 * [Font Awesome 4.7.0][10]
 * [Slim][11]
