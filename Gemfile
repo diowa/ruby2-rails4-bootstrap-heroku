@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 ruby '2.4.10'
-gem 'rails', '4.2.11.1'
+gem 'rails', '4.2.11.3'
 
 # Servers
 gem 'puma', '~> 4.3'
@@ -35,7 +35,7 @@ gem 'autoprefixer-rails', '~> 9.7'
 gem 'coffee-rails', '~> 4.2'
 gem 'i18n-js', '~> 3.0'
 gem 'jquery-rails', '~> 4.3'
-gem 'sass-rails', '~> 5.0'
+gem 'sassc-rails', '~> 2.1'
 gem 'slim_assets', '~> 0.0.3'
 gem 'turbolinks', '~> 5.2'
 gem 'twbs_sass_rails', '~> 10.0'
@@ -44,12 +44,12 @@ gem 'uglifier', '~> 4.2'
 group :development, :test do
   gem 'byebug', '~> 11.1', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails', '~> 5.2'
-  gem 'faker', '~> 2.1.1'
+  gem 'faker', '~> 2.2.1'
   gem 'pry', '~> 0.13.1'
   gem 'pry-byebug', '~> 3.9'
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 4.0'
-  gem 'rubocop', '~> 0.82.0', require: false
+  gem 'rubocop', '~> 0.83.0', require: false
   gem 'rubocop-performance', '~> 1.5', require: false
   gem 'rubocop-rails', '~> 2.5', require: false
   gem 'rubocop-rspec', '~> 1.39', require: false
@@ -65,8 +65,8 @@ end
 
 group :test do
   gem 'capybara', '~> 3.32'
-  gem 'coveralls_reborn', '~> 0.15.0', require: false
-  gem 'database_cleaner', '~> 1.6'
+  gem 'coveralls_reborn', '~> 0.16.0', require: false
+  gem 'database_cleaner', '~> 1.8'
   gem 'email_spec', '~> 2.2'
   gem 'selenium-webdriver', '~> 3.142'
   gem 'simplecov', '~> 0.18.5', require: false
