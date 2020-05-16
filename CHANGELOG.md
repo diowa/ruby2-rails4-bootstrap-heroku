@@ -1,5 +1,10 @@
 # Changelog
 
+## 20.2.0
+
+* Rails 4.2.11.3
+* Update dependencies
+
 ## 20.1.0
 
 * Bootstrap 3.4.1
