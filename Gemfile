@@ -31,7 +31,7 @@ gem 'newrelic_rpm', '~> 6.11'
 gem 'slim-rails', '~> 3.2'
 
 # Assets
-gem 'autoprefixer-rails', '~> 9.7'
+gem 'autoprefixer-rails', '~> 9.8'
 gem 'coffee-rails', '~> 4.2'
 gem 'i18n-js', '~> 3.7'
 gem 'jquery-rails', '~> 4.3'
