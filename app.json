@@ -11,7 +11,7 @@
   "repository": "https://github.com/diowa/ruby2-rails4-bootstrap-heroku",
   "success_url": "/",
   "scripts": {
-    "postdeploy": "bundle exec rake db:migrate"
+    "postdeploy": "bundle exec rake db:schema:load db:seed"
   },
   "env": {
     "NEW_RELIC_APP_NAME": {
