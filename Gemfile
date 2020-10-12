@@ -38,7 +38,7 @@ gem 'jquery-rails', '~> 4.3'
 gem 'sassc-rails', '~> 2.1'
 gem 'slim_assets', '~> 0.0.3'
 gem 'turbolinks', '~> 5.2'
-gem 'twbs_sass_rails', '~> 10.0'
+gem 'twbs_sass_rails', '~> 10.1'
 gem 'uglifier', '~> 4.2'
 
 group :development, :test do
