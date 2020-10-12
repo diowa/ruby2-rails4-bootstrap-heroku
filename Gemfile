@@ -6,7 +6,7 @@ ruby '2.4.10'
 gem 'rails', '4.2.11.3'
 
 # Servers
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 5.0'
 
 # API
 # gem 'rabl'
@@ -19,7 +19,7 @@ gem 'pg', '~> 0.21.0'
 
 # App monitoring
 # gem 'airbrake'
-gem 'newrelic_rpm', '~> 6.10'
+gem 'newrelic_rpm', '~> 6.13'
 
 # Security
 # gem 'secure_headers'
@@ -31,14 +31,14 @@ gem 'newrelic_rpm', '~> 6.10'
 gem 'slim-rails', '~> 3.2'
 
 # Assets
-gem 'autoprefixer-rails', '~> 9.7'
+gem 'autoprefixer-rails', '~> 10.0'
 gem 'coffee-rails', '~> 4.2'
-gem 'i18n-js', '~> 3.0'
+gem 'i18n-js', '~> 3.7'
 gem 'jquery-rails', '~> 4.3'
 gem 'sassc-rails', '~> 2.1'
 gem 'slim_assets', '~> 0.0.3'
 gem 'turbolinks', '~> 5.2'
-gem 'twbs_sass_rails', '~> 10.0'
+gem 'twbs_sass_rails', '~> 10.1'
 gem 'uglifier', '~> 4.2'
 
 group :development, :test do
@@ -49,12 +49,12 @@ group :development, :test do
   gem 'pry-byebug', '~> 3.9'
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 4.0'
-  gem 'rubocop', '~> 0.83.0', require: false
-  gem 'rubocop-performance', '~> 1.5', require: false
-  gem 'rubocop-rails', '~> 2.5', require: false
-  gem 'rubocop-rspec', '~> 1.39', require: false
+  gem 'rubocop', '~> 0.93.1', require: false
+  gem 'rubocop-performance', '~> 1.8', require: false
+  gem 'rubocop-rails', '~> 2.8', require: false
+  gem 'rubocop-rspec', '~> 1.43', require: false
   gem 'scss_lint', '~> 0.59.0', require: false
-  gem 'slim_lint', '~> 0.20.0', require: false
+  gem 'slim_lint', '~> 0.20.1', require: false
 end
 
 group :development do
@@ -64,13 +64,13 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '~> 3.32'
-  gem 'coveralls_reborn', '~> 0.16.0', require: false
+  gem 'capybara', '~> 3.32.0'
+  gem 'coveralls_reborn', '~> 0.18.0', require: false
   gem 'database_cleaner', '~> 1.8'
   gem 'email_spec', '~> 2.2'
   gem 'selenium-webdriver', '~> 3.142'
   gem 'simplecov', '~> 0.18.5', require: false
-  gem 'webmock', '~> 3.8', require: false
+  gem 'webmock', '~> 3.9', require: false
 end
 
 group :staging, :production do
