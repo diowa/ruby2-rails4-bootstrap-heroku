@@ -1,5 +1,9 @@
 # Changelog
 
+## 20.3.0
+
+* Update dependencies
+
 ## 20.2.0
 
 * Rails 4.2.11.3
