@@ -31,7 +31,7 @@ gem 'newrelic_rpm', '~> 6.13'
 gem 'slim-rails', '~> 3.2'
 
 # Assets
-gem 'autoprefixer-rails', '~> 9.8'
+gem 'autoprefixer-rails', '~> 10.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'i18n-js', '~> 3.7'
 gem 'jquery-rails', '~> 4.3'
@@ -49,7 +49,7 @@ group :development, :test do
   gem 'pry-byebug', '~> 3.9'
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 4.0'
-  gem 'rubocop', '~> 0.93.0', require: false
+  gem 'rubocop', '~> 0.93.1', require: false
   gem 'rubocop-performance', '~> 1.8', require: false
   gem 'rubocop-rails', '~> 2.8', require: false
   gem 'rubocop-rspec', '~> 1.43', require: false
