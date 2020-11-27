@@ -39,7 +39,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     arel (6.0.4)
     ast (2.4.1)
-    autoprefixer-rails (10.0.2.0)
+    autoprefixer-rails (10.0.3.0)
       execjs
     builder (3.2.4)
     byebug (11.1.3)
