@@ -1,7 +1,7 @@
 # Rails 4 Starter App
-[![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.svg?branch=master)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku)
+[![Build Status](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku.svg?branch=main)](https://travis-ci.org/diowa/ruby2-rails4-bootstrap-heroku)
 [![Code Climate](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku/badges/gpa.svg)](https://codeclimate.com/github/diowa/ruby2-rails4-bootstrap-heroku)
-[![Coverage Status](https://coveralls.io/repos/github/diowa/ruby2-rails4-bootstrap-heroku/badge.svg?branch=master)](https://coveralls.io/github/diowa/ruby2-rails4-bootstrap-heroku?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/diowa/ruby2-rails4-bootstrap-heroku/badge.svg?branch=main)](https://coveralls.io/github/diowa/ruby2-rails4-bootstrap-heroku?branch=main)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -54,7 +54,7 @@ This application supports fast setup and deploy via [app.json](https://devcenter
 $ curl -n -X POST https://api.heroku.com/app-setups \
 -H "Content-Type:application/json" \
 -H "Accept:application/vnd.heroku+json; version=3" \
--d '{"source_blob": { "url":"https://github.com/diowa/ruby2-rails4-bootstrap-heroku/tarball/master/"} }'
+-d '{"source_blob": { "url":"https://github.com/diowa/ruby2-rails4-bootstrap-heroku/tarball/main/"} }'
 ```
 
 More information: [Setting Up Apps using the Platform API](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api)
