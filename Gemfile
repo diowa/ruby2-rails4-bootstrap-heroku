@@ -19,7 +19,7 @@ gem 'pg', '~> 0.21.0'
 
 # App monitoring
 # gem 'airbrake'
-gem 'newrelic_rpm', '~> 6.15'
+gem 'newrelic_rpm', '~> 7.0'
 
 # Security
 # gem 'secure_headers'
