@@ -65,11 +65,11 @@ end
 
 group :test do
   gem 'capybara', '~> 3.32.0'
-  gem 'coveralls_reborn', '~> 0.21.0', require: false
   gem 'database_cleaner', '~> 1.99'
   gem 'email_spec', '~> 2.2'
   gem 'selenium-webdriver', '~> 3.142'
   gem 'simplecov', '~> 0.18.5', require: false
+  gem 'simplecov-lcov', '~> 0.8.0', require: false
   gem 'webmock', '~> 3.13', require: false
 end
 
