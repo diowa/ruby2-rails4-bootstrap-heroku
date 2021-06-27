@@ -57,6 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  url: <%= ENV.fetch('DATABASE_URL', nil) %>
   database: starterapp_test
   username: postgres
 
