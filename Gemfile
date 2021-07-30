@@ -33,7 +33,7 @@ gem 'slim-rails', '~> 3.3'
 # Assets
 gem 'autoprefixer-rails', '~> 10.2'
 gem 'coffee-rails', '~> 4.2'
-gem 'i18n-js', '~> 3.8'
+gem 'i18n-js', '~> 3.9'
 gem 'jquery-rails', '~> 4.3'
 gem 'sassc-rails', '~> 2.1'
 gem 'slim_assets', '~> 0.0.3'
