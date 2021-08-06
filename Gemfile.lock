@@ -270,8 +270,8 @@ GEM
       activemodel (>= 4.2)
       debug_inspector
       railties (>= 4.2)
-    webmock (3.13.0)
-      addressable (>= 2.3.6)
+    webmock (3.14.0)
+      addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
     xpath (3.2.0)
@@ -319,7 +319,7 @@ DEPENDENCIES
   twbs_sass_rails (~> 10.2)
   uglifier (~> 4.2)
   web-console (~> 3.3)
-  webmock (~> 3.13)
+  webmock (~> 3.14)
 
 RUBY VERSION
    ruby 2.4.10p364

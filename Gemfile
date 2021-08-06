@@ -70,7 +70,7 @@ group :test do
   gem 'selenium-webdriver', '~> 3.142'
   gem 'simplecov', '~> 0.18.5', require: false
   gem 'simplecov-lcov', '~> 0.8.0', require: false
-  gem 'webmock', '~> 3.13', require: false
+  gem 'webmock', '~> 3.14', require: false
 end
 
 group :staging, :production do
