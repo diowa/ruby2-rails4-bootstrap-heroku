@@ -39,7 +39,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     arel (6.0.4)
     ast (2.4.2)
-    autoprefixer-rails (10.3.3.0)
+    autoprefixer-rails (10.4.0.0)
       execjs (~> 2)
     builder (3.2.4)
     byebug (11.1.3)
@@ -281,7 +281,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autoprefixer-rails (~> 10.3)
+  autoprefixer-rails (~> 10.4)
   byebug (~> 11.1)
   capybara (~> 3.32.0)
   coffee-rails (~> 4.2)
