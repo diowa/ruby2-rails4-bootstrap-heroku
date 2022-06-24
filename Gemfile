@@ -74,6 +74,6 @@ group :test do
 end
 
 group :staging, :production do
-  gem 'rack-timeout', '~> 0.6.0'
+  gem 'rack-timeout', '~> 0.6.3'
   gem 'rails_12factor', '~> 0.0.3'
 end
