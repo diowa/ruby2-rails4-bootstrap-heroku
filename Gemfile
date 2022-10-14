@@ -6,7 +6,7 @@ ruby '2.4.10'
 gem 'rails', '4.2.11.3'
 
 # Servers
-gem 'puma', '~> 5.6'
+gem 'puma', '~> 6.0'
 
 # API
 # gem 'rabl'
