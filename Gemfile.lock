@@ -217,7 +217,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    scss_lint (0.59.0)
+    scss_lint (0.60.0)
       sass (~> 3.5, >= 3.5.5)
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
@@ -306,7 +306,7 @@ DEPENDENCIES
   rubocop-rails (~> 2.9)
   rubocop-rspec (~> 2.2)
   sassc-rails (~> 2.1)
-  scss_lint (~> 0.59.0)
+  scss_lint (~> 0.60.0)
   selenium-webdriver (~> 3.142)
   simplecov (~> 0.18.5)
   simplecov-lcov (~> 0.8.0)
