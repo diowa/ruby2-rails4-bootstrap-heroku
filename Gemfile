@@ -54,7 +54,7 @@ group :development, :test do
   gem 'rubocop-rails', '~> 2.9', require: false
   gem 'rubocop-rspec', '~> 2.2', require: false
   gem 'scss_lint', '~> 0.60.0', require: false
-  gem 'slim_lint', '~> 0.23.0', require: false
+  gem 'slim_lint', '~> 0.24.0', require: false
 end
 
 group :development do
