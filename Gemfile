@@ -28,7 +28,7 @@ gem 'newrelic_rpm', '~> 9.0'
 # gem 'google-analytics-rails'
 # gem 'http_accept_language'
 # gem 'resque', require: 'resque/server' # Resque web interface
-gem 'slim-rails', '~> 3.5'
+gem 'slim-rails', '~> 3.6'
 
 # Assets
 gem 'autoprefixer-rails', '~> 10.4'
