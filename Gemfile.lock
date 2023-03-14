@@ -310,7 +310,7 @@ DEPENDENCIES
   selenium-webdriver (~> 3.142)
   simplecov (~> 0.18.5)
   simplecov-lcov (~> 0.8.0)
-  slim-rails (~> 3.5)
+  slim-rails (~> 3.6)
   slim_assets (~> 0.0.3)
   slim_lint (~> 0.24.0)
   spring (~> 2.1)
