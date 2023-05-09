@@ -49,10 +49,10 @@ group :development, :test do
   gem 'pry-byebug', '~> 3.9'
   gem 'pry-rails', '~> 0.3.9'
   gem 'rspec-rails', '~> 4.1'
-  gem 'rubocop', '~> 1.12', require: false
-  gem 'rubocop-performance', '~> 1.10', require: false
+  gem 'rubocop', '~> 1.50', require: false
+  gem 'rubocop-performance', '~> 1.17', require: false
   gem 'rubocop-rails', '~> 2.9', require: false
-  gem 'rubocop-rspec', '~> 2.2', require: false
+  gem 'rubocop-rspec', '~> 2.22', require: false
   gem 'scss_lint', '~> 0.60.0', require: false
   gem 'slim_lint', '~> 0.24.0', require: false
 end
