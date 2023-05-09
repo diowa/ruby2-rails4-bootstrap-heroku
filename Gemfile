@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 ruby '2.4.10'
-gem 'rails', '4.2.11.3'
+gem 'rails', '6.1.7.3'
 
 # Servers
 gem 'puma', '~> 6.2'
@@ -32,7 +32,7 @@ gem 'slim-rails', '~> 3.6'
 
 # Assets
 gem 'autoprefixer-rails', '~> 10.4'
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0'
 gem 'i18n-js', '~> 3.9'
 gem 'jquery-rails', '~> 4.5'
 gem 'sassc-rails', '~> 2.1'
@@ -43,15 +43,15 @@ gem 'uglifier', '~> 4.2'
 
 group :development, :test do
   gem 'byebug', '~> 11.1', platforms: %i[mri mingw x64_mingw]
-  gem 'factory_bot_rails', '~> 5.2'
+  gem 'factory_bot_rails', '~> 6.2'
   gem 'faker', '~> 2.2.1'
-  gem 'pry', '~> 0.13.1'
-  gem 'pry-byebug', '~> 3.9'
+  gem 'pry', '~> 0.14.2'
+  gem 'pry-byebug', '~> 3.10'
   gem 'pry-rails', '~> 0.3.9'
-  gem 'rspec-rails', '~> 4.1'
-  gem 'rubocop', '~> 1.12', require: false
+  gem 'rspec-rails', '~> 6.0'
+  gem 'rubocop', '~> 1.50', require: false
   gem 'rubocop-performance', '~> 1.10', require: false
-  gem 'rubocop-rails', '~> 2.9', require: false
+  gem 'rubocop-rails', '~> 2.19', require: false
   gem 'rubocop-rspec', '~> 2.2', require: false
   gem 'scss_lint', '~> 0.60.0', require: false
   gem 'slim_lint', '~> 0.24.0', require: false
@@ -60,15 +60,15 @@ end
 group :development do
   gem 'spring', '~> 2.1'
   gem 'spring-commands-rspec', '~> 1.0'
-  gem 'web-console', '~> 3.3'
+  gem 'web-console', '~> 4.2'
 end
 
 group :test do
-  gem 'capybara', '~> 3.32.0'
+  gem 'capybara', '~> 3.39.0'
   gem 'database_cleaner', '~> 1.99'
   gem 'email_spec', '~> 2.2'
-  gem 'selenium-webdriver', '~> 3.142'
-  gem 'simplecov', '~> 0.18.5', require: false
+  gem 'selenium-webdriver', '~> 4.9'
+  gem 'simplecov', '~> 0.22.0', require: false
   gem 'simplecov-lcov', '~> 0.8.0', require: false
   gem 'webmock', '~> 3.17', require: false
 end
