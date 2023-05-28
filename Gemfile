@@ -30,6 +30,8 @@ gem 'newrelic_rpm', '~> 9.2'
 # gem 'resque', require: 'resque/server' # Resque web interface
 gem 'slim-rails', '~> 3.6'
 
+gem 'loofah', '~> 2.20.0'
+
 # Assets
 gem 'autoprefixer-rails', '~> 10.4'
 gem 'coffee-rails', '~> 4.2'
