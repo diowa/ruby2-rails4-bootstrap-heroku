@@ -6,7 +6,7 @@ ruby '2.4.10'
 gem 'rails', '4.2.11.3'
 
 # Servers
-gem 'puma', '~> 6.3'
+gem 'puma', '~> 6.4'
 
 # API
 # gem 'rabl'
@@ -19,7 +19,7 @@ gem 'pg', '~> 0.21.0'
 
 # App monitoring
 # gem 'airbrake'
-gem 'newrelic_rpm', '~> 9.4'
+gem 'newrelic_rpm', '~> 9.5'
 
 # Security
 # gem 'secure_headers'
