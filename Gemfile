@@ -19,7 +19,7 @@ gem 'pg', '~> 0.21.0'
 
 # App monitoring
 # gem 'airbrake'
-gem 'newrelic_rpm', '~> 9.5'
+gem 'newrelic_rpm', '~> 9.6'
 
 # Security
 # gem 'secure_headers'
@@ -72,7 +72,7 @@ group :test do
   gem 'selenium-webdriver', '~> 3.142'
   gem 'simplecov', '~> 0.18.5', require: false
   gem 'simplecov-lcov', '~> 0.8.0', require: false
-  gem 'webmock', '~> 3.17', require: false
+  gem 'webmock', '~> 3.18', require: false
 end
 
 group :staging, :production do
