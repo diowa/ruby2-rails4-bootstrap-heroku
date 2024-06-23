@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 ruby '2.4.10'
 gem 'rails', '4.2.11.3'
 
+gem 'crack', '0.4.5'
+
 # Servers
 gem 'puma', '~> 6.4'
 
