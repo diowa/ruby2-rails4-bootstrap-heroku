@@ -4,10 +4,16 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      default-days: 5
   - package-ecosystem: bundler
     directory: "/"
     schedule:
       interval: "weekly"
+    cooldown:
+      semver-patch-days: 5
+      semver-minor-days: 10
+      semver-major-days: 15
     open-pull-requests-limit: 10
     ignore:
       - dependency-name: pg
